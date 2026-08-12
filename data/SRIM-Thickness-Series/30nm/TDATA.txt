@@ -1,0 +1,39 @@
+====== H (10) into Layer 1                      =======
+        SRIM-2013.00
+=======================================
+      Data  of  TRIM  Calculation      
+=======================================
+Ion = He ( 2)   Ion Mass= 004.0030
+Energy  = 3000000.E-05 keV
+Ion Angle to Surface = 0 degrees
+============= TARGET MATERIAL ======================================
+  Layer # 1 - Layer 1
+  Layer # 1 - Bottom Depth=     3.E+02 A
+  Layer # 1- Density = 5.710E22 atoms/cm3 = 5.06 g/cm3
+  Layer # 1- Mo = 33.3 Atomic Percent = 59.9 Mass Percent
+  Layer # 1-  S = 66.6 Atomic Percent = 40.0 Mass Percent
+====================================================================
+Target energies for target atom = Mo
+    Displacement = 25 eV, Binding = 3 eV, Surface = 6.83 eV
+Target energies for target atom =  S
+    Displacement = 25 eV, Binding = 3 eV, Surface = 2.88 eV
+====================================================================
+Depth Range of Tabulated Data=  000000.E+00  -  300000.E-03  Angstroms
+====================================================================
+Total Ions calculated =  099998
+Average Range         =   18594.E-02 Angstroms
+Average Straggling    =   60911.E-03 Angstroms
+Average Vacancy/Ion   =   50543.E-04
+====================================================================
+Total Backscattered Ions=  1016 
+Total Transmitted Ions  =  98970 
+====================================================================
+See files SRIM Outputs\*.txt for tables :
+   TDATA.txt    -- Details of the calculation.
+   RANGE.txt    -- Final distribution of Ions/Recoils
+   VACANCY.txt  -- Distribution of Vacancies
+   IONIZ.txt    -- Distribution of Ionization
+   PHONON.txt   -- Distribution of Phonons
+   E2RECOIL.txt -- Energy transferred to recoils
+   NOVAC.txt    -- Replacement collisions
+   LATERAL.txt  -- Lateral Spread of Ions

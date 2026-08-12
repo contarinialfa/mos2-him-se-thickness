@@ -1,0 +1,7 @@
+case_id,source_key,model_key,production_step_nm,reference_step_nm,evaluation_points,maximum_absolute_prediction_difference,rms_prediction_difference,maximum_difference_relative_to_peak,passed
+S1__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S1,symmetric_fixed,0.05,0.025,261,5.359194516885157e-06,4.205465360292216e-07,3.991101449206575e-06,True
+S1__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S1,symmetric_free,0.05,0.025,261,1.7105298844577455e-06,2.496324239961636e-07,1.278567505005437e-06,True
+S1__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S1,asymmetric,0.05,0.025,261,1.8742040799879511e-06,2.6019872948439814e-07,1.398708557907485e-06,True
+S3__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S3,symmetric_fixed,0.05,0.025,261,9.459551915447229e-06,7.439362771556575e-07,7.0591888633741735e-06,True
+S3__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S3,symmetric_free,0.05,0.025,261,1.8036182733993655e-06,2.7578778024166554e-07,1.347672999585584e-06,True
+S3__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none,S3,asymmetric,0.05,0.025,261,1.5296700238143224e-06,2.4463917556645373e-07,1.1416331223197364e-06,True

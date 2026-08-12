@@ -1,0 +1,2308 @@
+{
+  "Model_B_common_error_reference": {
+    "aic_with_frozen_sigma_eff": -44.09130786074353,
+    "b_at_fit_data": [
+      0.9691944055103858,
+      0.6563042884342914,
+      0.2406925542461914,
+      0.11544757794328753,
+      0.030949759302876252,
+      0.004970736907788034,
+      0.955915195267359,
+      0.8688060800162937,
+      0.6790924745374705,
+      0.17004987152648812,
+      0.021925742371573062,
+      0.9952925069896796,
+      0.9857326012201068,
+      0.9655659407329757,
+      0.9159473386616845
+    ],
+    "bic_with_frozen_sigma_eff": -41.259107056334685,
+    "chi2": 13.449556424845683,
+    "dof": 11,
+    "gaussian_deviance_with_frozen_sigma_eff": -52.09130786074353,
+    "label": "new_campaign_b4_table_reference_for_14p2",
+    "lambda_b_times_s_nm": 10.973806020137829,
+    "lambda_b_times_s_se_local_covariance_nm": 1.4459705600770116,
+    "max_abs_frozen_slope": 0.02050068371972478,
+    "model_peak_intensity": 1.34668431489627,
+    "model_peak_t_nm": 41.03639454954152,
+    "n_points": 15,
+    "parameter_covariance": [
+      [
+        0.0003041394168760833,
+        -0.00018156299211630019,
+        0.017606894432879362,
+        -0.0003747171966455944
+      ],
+      [
+        -0.00018156299211630027,
+        0.0008179106854562119,
+        0.04401599519192422,
+        -0.00013364528469614695
+      ],
+      [
+        0.017606894432879362,
+        0.044015995191924215,
+        6.3796211828368286,
+        -0.061143251929266534
+      ],
+      [
+        -0.00037471719664559434,
+        -0.00013364528469614695,
+        -0.061143251929266534,
+        0.001324365489619785
+      ]
+    ],
+    "parameter_se_local_covariance": {
+      "C_b": 0.02859913784463112,
+      "C_f": 0.017439593369000417,
+      "lambda_b_raw_nm": 2.5257911993743325,
+      "s": 0.0363918327323561
+    },
+    "parameters": {
+      "C_b": 1.09314963839698,
+      "C_f": 0.32753573673822217,
+      "lambda_b_raw_nm": 15.72955745783431,
+      "s": 0.6976551024753835
+    },
+    "preliminary_y_only": {
+      "chi2": 112.9761312721862,
+      "parameters": [
+        0.33434161383999206,
+        1.0133586326315454,
+        10.90975538890048,
+        0.7062073402929904
+      ]
+    },
+    "procedure": "WLS; symmetrized 68% y errors; sigma_eff frozen from y-only preliminary slopes; sigma_t=0.10*t",
+    "reduced_chi2": 1.222686947713244,
+    "sigma_eff": [
+      0.016018746710936067,
+      0.08662507243261339,
+      0.11260381131260637,
+      0.08880985425232335,
+      0.0388984524753122,
+      0.014320910941294729,
+      0.0548412716906697,
+      0.0456706208887519,
+      0.08303525237646761,
+      0.10407914609099625,
+      0.04401496317699043,
+      0.04601642190601135,
+      0.02636567876807504,
+      0.022032144373908304,
+      0.030723040966555124
+    ],
+    "u_data_max_nm": 303.8750798894649,
+    "u_data_min_nm": 20.21055955868611
+  },
+  "analysis_cut_deg_from_membrane_normal": 14.2,
+  "archive": "mos2_30keV_route_i_srim_axis_resolution_v1",
+  "comparison_with_20deg": {
+    "interpretation": "Lowering the split moves both route-only proxy peaks toward the observed 40-55 nm region and materially improves the route-only fit, but the common-error route-only model remains strongly disfavoured. Positive two-route mixtures remain competitive with or better than Model B.",
+    "same_Model_B_reference_chi2": 13.449556424845683,
+    "same_Model_B_reference_s": 0.6976551024753835,
+    "table": [
+      {
+        "change_14p2_minus_20": -12.578520953750271,
+        "cut_14p2deg": 80.27788303365047,
+        "cut_20deg": 92.85640398740074,
+        "quantity": "sqrtE local peak raw u_nm"
+      },
+      {
+        "change_14p2_minus_20": -8.775469324977404,
+        "cut_14p2deg": 56.00627471434827,
+        "cut_20deg": 64.78174403932567,
+        "quantity": "sqrtE local peak mapped t_nm at new s"
+      },
+      {
+        "change_14p2_minus_20": -11.881737775248354,
+        "cut_14p2deg": 101.34312931637076,
+        "cut_20deg": 113.22486709161912,
+        "quantity": "unweighted local peak raw u_nm"
+      },
+      {
+        "change_14p2_minus_20": -8.289354985176526,
+        "cut_14p2deg": 70.70255126838869,
+        "cut_20deg": 78.99190625356522,
+        "quantity": "unweighted local peak mapped t_nm at new s"
+      },
+      {
+        "change_14p2_minus_20": -48.903524125683035,
+        "cut_14p2deg": 71.83969715361678,
+        "cut_20deg": 120.74322127929982,
+        "quantity": "sqrtE route-only common-sigma chi2"
+      },
+      {
+        "change_14p2_minus_20": 0.06487699059867746,
+        "cut_14p2deg": 0.5443263211862732,
+        "cut_20deg": 0.47944933058759576,
+        "quantity": "sqrtE route-only fitted s"
+      },
+      {
+        "change_14p2_minus_20": -2.530493814946448,
+        "cut_14p2deg": 9.962506710196458,
+        "cut_20deg": 12.493000525142905,
+        "quantity": "sqrtE mixture free-s common-sigma chi2"
+      },
+      {
+        "change_14p2_minus_20": 0.04297263281474262,
+        "cut_14p2deg": 0.7046583234821426,
+        "cut_20deg": 0.6616856906674,
+        "quantity": "sqrtE mixture free-s fitted s"
+      },
+      {
+        "change_14p2_minus_20": -3.368162216224114,
+        "cut_14p2deg": 10.006881738743182,
+        "cut_20deg": 13.375043954967296,
+        "quantity": "sqrtE mixture fixed-s common-sigma chi2"
+      }
+    ]
+  },
+  "definitions": {
+    "horizontal_floor_sec": "sum sqrt(E_exit/E0)*sec(theta)*1[theta>14.2 deg]/N_incident",
+    "horizontal_floor_sec_cap4": "same horizontal-floor proxy with min(sec(theta),4)",
+    "ideal_vertical_tape_csc": "sum sqrt(E_exit/E0)/sin(theta)*1[theta>14.2 deg]/N_incident",
+    "sqrtE_direct": "sum sqrt(E_exit/E0)*1[theta<=14.2 deg]/N_incident",
+    "sqrtE_external": "sum sqrt(E_exit/E0)*1[theta>14.2 deg]/N_incident",
+    "unweighted_external": "sum[theta>14.2 deg]/N_incident"
+  },
+  "geometry_caveats": {
+    "horizontal_floor": "sec(theta) is the ideal planar path-length factor for a horizontal surface normal to the beam. It is not a material-specific SE yield and omits saturation and collection.",
+    "mixture_amplitudes": "All mixture amplitudes absorb unknown surface yield, intercepted fraction, detector visibility, and collection efficiency. Fitted components are not calibrated physical fractions.",
+    "vertical_tape": "1/sin(theta) assumes the ion's transverse direction is normal to a vertical tape plane. Actual interception and incidence also depend on azimuth, tape position/extent, shadowing, and detector visibility; none is available in the SRIM archive. This curve is therefore only a shape sensitivity, not a tape signal prediction."
+  },
+  "integrity": {
+    "closest_record_to_threshold_deg": 1.1653867328931256e-05,
+    "exact_boundary_records": 0,
+    "incident_ions": 8560000,
+    "max_Q_partition_roundoff": 1.3877787807814457e-16,
+    "max_count_partition_roundoff": 6.938893903907228e-17,
+    "production_pooling": "two independent 100k seeds pooled at 41 thicknesses; 10k reconnaissance used only outside the production grid",
+    "records_gt14p2": 3933795,
+    "runs": 118,
+    "transmitted_records": 5080084
+  },
+  "outputs": {
+    "comparison_csv": "analysis\\srim_route_i_v1\\threshold_14p2_vs_20.csv",
+    "pooled_curves_csv": "analysis\\srim_route_i_v1\\threshold_14p2_pooled_curves.csv",
+    "results_json": "analysis\\srim_route_i_v1\\threshold_14p2_results.json"
+  },
+  "peaks": {
+    "horizontal_floor_sec": {
+      "approx_95pct_indistinguishable_t_at_new_s_nm": [
+        55.81240819803068,
+        69.76551024753836
+      ],
+      "approx_95pct_indistinguishable_u_max_nm": 100.0,
+      "approx_95pct_indistinguishable_u_min_nm": 80.0,
+      "centered_window_sensitivity": {
+        "11_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 11,
+          "quadratic_coefficients": [
+            -7.103368293291668e-05,
+            0.012967143780542756,
+            0.1639833259077932
+          ],
+          "reduced_chi2_local": 0.9590566782517447,
+          "vertex_mc_16_u_nm": 90.9000173690141,
+          "vertex_mc_84_u_nm": 91.63554778025447,
+          "vertex_mc_median_u_nm": 91.27601582729116,
+          "vertex_u_nm": 91.27461258617807,
+          "window_u_nm": [
+            70.0,
+            120.0
+          ]
+        },
+        "7_centered_points": {
+          "accepted_mc_fraction": 0.99692,
+          "concave": true,
+          "n_points": 7,
+          "quadratic_coefficients": [
+            -4.995504291627206e-05,
+            0.009012985824142561,
+            0.34783030249491276
+          ],
+          "reduced_chi2_local": 1.1120468300625843,
+          "vertex_mc_16_u_nm": 88.60674775696776,
+          "vertex_mc_84_u_nm": 91.36811811185629,
+          "vertex_mc_median_u_nm": 90.20896794836457,
+          "vertex_u_nm": 90.2109706846706,
+          "window_u_nm": [
+            80.0,
+            110.0
+          ]
+        },
+        "9_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 9,
+          "quadratic_coefficients": [
+            -6.788603813090432e-05,
+            0.012323965376303647,
+            0.1963245383190042
+          ],
+          "reduced_chi2_local": 1.1063121959750573,
+          "vertex_mc_16_u_nm": 90.07754232198933,
+          "vertex_mc_84_u_nm": 91.39007158458737,
+          "vertex_mc_median_u_nm": 90.76971660811651,
+          "vertex_u_nm": 90.76951399446381,
+          "window_u_nm": [
+            75.0,
+            115.0
+          ]
+        }
+      },
+      "grid_peak_se": 0.006643392949076026,
+      "grid_peak_t_at_new_s_nm": 66.27723473516144,
+      "grid_peak_u_nm": 95.0,
+      "grid_peak_value": 0.7604835200967788,
+      "mapped_primary_local_quadratic": {
+        "additional_repeatability_component_sd_nm": 6.389240009411773,
+        "t_MC_stat_component_sd_nm": 0.25592722614283003,
+        "t_at_new_s_nm": 63.67836990722843,
+        "t_combined_MC_and_s_local_covariance_sd_nm": 3.3315040908711406,
+        "t_new_s_local_covariance_component_sd_nm": 3.3216593387055786,
+        "u_MC_stat_sd_approx_nm": 0.3668391806134039,
+        "u_nm": 91.27485727731103
+      },
+      "primary_local_quadratic": {
+        "accepted_mc_fraction": 1.0,
+        "concave": true,
+        "n_points": 11,
+        "quadratic_coefficients": [
+          -7.103368293291668e-05,
+          0.012967143780542756,
+          0.1639833259077932
+        ],
+        "reduced_chi2_local": 0.9590566782517447,
+        "vertex_mc_16_u_nm": 90.90160455982547,
+        "vertex_mc_84_u_nm": 91.63528292105228,
+        "vertex_mc_median_u_nm": 91.27485727731103,
+        "vertex_u_nm": 91.27461258617807,
+        "window_u_nm": [
+          70.0,
+          120.0
+        ]
+      }
+    },
+    "horizontal_floor_sec_cap4": {
+      "approx_95pct_indistinguishable_t_at_new_s_nm": [
+        59.300683710407604,
+        66.27723473516144
+      ],
+      "approx_95pct_indistinguishable_u_max_nm": 95.0,
+      "approx_95pct_indistinguishable_u_min_nm": 85.0,
+      "centered_window_sensitivity": {
+        "11_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 11,
+          "quadratic_coefficients": [
+            -7.258325612609362e-05,
+            0.013011321586414937,
+            0.14266980818058528
+          ],
+          "reduced_chi2_local": 0.41204373233844455,
+          "vertex_mc_16_u_nm": 89.47265072096778,
+          "vertex_mc_84_u_nm": 89.78625313964706,
+          "vertex_mc_median_u_nm": 89.63007113204657,
+          "vertex_u_nm": 89.63032440850623,
+          "window_u_nm": [
+            65.0,
+            115.0
+          ]
+        },
+        "7_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 7,
+          "quadratic_coefficients": [
+            -6.969582072080538e-05,
+            0.012457123228074352,
+            0.1689561349348878
+          ],
+          "reduced_chi2_local": 0.24914833770743672,
+          "vertex_mc_16_u_nm": 89.03660834084295,
+          "vertex_mc_84_u_nm": 89.690129735514,
+          "vertex_mc_median_u_nm": 89.36774728942169,
+          "vertex_u_nm": 89.36779206587124,
+          "window_u_nm": [
+            75.0,
+            105.0
+          ]
+        },
+        "9_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 9,
+          "quadratic_coefficients": [
+            -7.2530851795094e-05,
+            0.012973562865155941,
+            0.145650264500091
+          ],
+          "reduced_chi2_local": 0.23888519157233,
+          "vertex_mc_16_u_nm": 89.22018849266256,
+          "vertex_mc_84_u_nm": 89.64815229361078,
+          "vertex_mc_median_u_nm": 89.43541059872847,
+          "vertex_u_nm": 89.43478908676953,
+          "window_u_nm": [
+            70.0,
+            110.0
+          ]
+        }
+      },
+      "grid_peak_se": 0.001188283992805876,
+      "grid_peak_t_at_new_s_nm": 62.78895922278452,
+      "grid_peak_u_nm": 90.0,
+      "grid_peak_value": 0.7253519203997794,
+      "mapped_primary_local_quadratic": {
+        "additional_repeatability_component_sd_nm": 6.274111651783298,
+        "t_MC_stat_component_sd_nm": 0.10983451101722187,
+        "t_at_new_s_nm": 62.53094296238391,
+        "t_combined_MC_and_s_local_covariance_sd_nm": 3.263654725448659,
+        "t_new_s_local_covariance_component_sd_nm": 3.2618060253689167,
+        "u_MC_stat_sd_approx_nm": 0.1574338245753708,
+        "u_nm": 89.6301664540471
+      },
+      "primary_local_quadratic": {
+        "accepted_mc_fraction": 1.0,
+        "concave": true,
+        "n_points": 11,
+        "quadratic_coefficients": [
+          -7.258325612609362e-05,
+          0.013011321586414937,
+          0.14266980818058528
+        ],
+        "reduced_chi2_local": 0.41204373233844455,
+        "vertex_mc_16_u_nm": 89.47247603306167,
+        "vertex_mc_84_u_nm": 89.78734368221241,
+        "vertex_mc_median_u_nm": 89.6301664540471,
+        "vertex_u_nm": 89.63032440850623,
+        "window_u_nm": [
+          65.0,
+          115.0
+        ]
+      }
+    },
+    "ideal_vertical_tape_csc": {
+      "approx_95pct_indistinguishable_t_at_new_s_nm": [
+        41.85930614852301,
+        48.83585717327685
+      ],
+      "approx_95pct_indistinguishable_u_max_nm": 70.0,
+      "approx_95pct_indistinguishable_u_min_nm": 60.0,
+      "centered_window_sensitivity": {
+        "11_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 11,
+          "quadratic_coefficients": [
+            -0.0002138389083754244,
+            0.029405208630050694,
+            0.23246619580640981
+          ],
+          "reduced_chi2_local": 15.279108813539281,
+          "vertex_mc_16_u_nm": 68.64230817435326,
+          "vertex_mc_84_u_nm": 68.86921223893799,
+          "vertex_mc_median_u_nm": 68.75492817394976,
+          "vertex_u_nm": 68.75551519938013,
+          "window_u_nm": [
+            40.0,
+            90.0
+          ]
+        },
+        "7_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 7,
+          "quadratic_coefficients": [
+            -0.00021281337722300897,
+            0.028572335199484655,
+            0.2830159266877672
+          ],
+          "reduced_chi2_local": 4.316166149777889,
+          "vertex_mc_16_u_nm": 66.90717695445078,
+          "vertex_mc_84_u_nm": 67.3627634507033,
+          "vertex_mc_median_u_nm": 67.13079568078052,
+          "vertex_u_nm": 67.13002625192931,
+          "window_u_nm": [
+            50.0,
+            80.0
+          ]
+        },
+        "9_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 9,
+          "quadratic_coefficients": [
+            -0.000210786432640081,
+            0.028622744561705105,
+            0.2706930220774666
+          ],
+          "reduced_chi2_local": 6.61373636976662,
+          "vertex_mc_16_u_nm": 67.73974126113936,
+          "vertex_mc_84_u_nm": 68.05230406165605,
+          "vertex_mc_median_u_nm": 67.89490596665391,
+          "vertex_u_nm": 67.89513016375821,
+          "window_u_nm": [
+            45.0,
+            85.0
+          ]
+        }
+      },
+      "grid_peak_se": 0.002423075753172836,
+      "grid_peak_t_at_new_s_nm": 45.34758166089993,
+      "grid_peak_u_nm": 65.0,
+      "grid_peak_value": 1.2402289811038685,
+      "mapped_primary_local_quadratic": {
+        "additional_repeatability_component_sd_nm": 4.812886088989446,
+        "t_MC_stat_component_sd_nm": 0.07876457342063732,
+        "t_at_new_s_nm": 47.96763625166113,
+        "t_combined_MC_and_s_local_covariance_sd_nm": 2.5033786254140433,
+        "t_new_s_local_covariance_component_sd_nm": 2.502139221576963,
+        "u_MC_stat_sd_approx_nm": 0.11289901434271599,
+        "u_nm": 68.75551555699208
+      },
+      "primary_local_quadratic": {
+        "accepted_mc_fraction": 1.0,
+        "concave": true,
+        "n_points": 11,
+        "quadratic_coefficients": [
+          -0.0002138389083754244,
+          0.029405208630050694,
+          0.23246619580640981
+        ],
+        "reduced_chi2_local": 15.279108813539281,
+        "vertex_mc_16_u_nm": 68.64308330862538,
+        "vertex_mc_84_u_nm": 68.86888133731081,
+        "vertex_mc_median_u_nm": 68.75551555699208,
+        "vertex_u_nm": 68.75551519938013,
+        "window_u_nm": [
+          40.0,
+          90.0
+        ]
+      }
+    },
+    "sqrtE": {
+      "approx_95pct_indistinguishable_t_at_new_s_nm": [
+        52.324132685653765,
+        55.81240819803068
+      ],
+      "approx_95pct_indistinguishable_u_max_nm": 80.0,
+      "approx_95pct_indistinguishable_u_min_nm": 75.0,
+      "centered_window_sensitivity": {
+        "11_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 11,
+          "quadratic_coefficients": [
+            -6.12638505712998e-05,
+            0.009891542893901928,
+            0.146744620961897
+          ],
+          "reduced_chi2_local": 4.111722222983289,
+          "vertex_mc_16_u_nm": 80.60438994002367,
+          "vertex_mc_84_u_nm": 80.85370081720372,
+          "vertex_mc_median_u_nm": 80.72891965043445,
+          "vertex_u_nm": 80.72903353005866,
+          "window_u_nm": [
+            55.0,
+            105.0
+          ]
+        },
+        "7_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 7,
+          "quadratic_coefficients": [
+            -6.0022630169076496e-05,
+            0.009585411636692243,
+            0.16327967735924176
+          ],
+          "reduced_chi2_local": 0.7171298908292174,
+          "vertex_mc_16_u_nm": 79.59337831628977,
+          "vertex_mc_84_u_nm": 80.10029645302019,
+          "vertex_mc_median_u_nm": 79.84878990399706,
+          "vertex_u_nm": 79.84831395834618,
+          "window_u_nm": [
+            65.0,
+            95.0
+          ]
+        },
+        "9_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 9,
+          "quadratic_coefficients": [
+            -6.019993357972431e-05,
+            0.009648047057826403,
+            0.15938724161492246
+          ],
+          "reduced_chi2_local": 0.8816942373535662,
+          "vertex_mc_16_u_nm": 79.96087807825505,
+          "vertex_mc_84_u_nm": 80.30511403977924,
+          "vertex_mc_median_u_nm": 80.13326679108776,
+          "vertex_u_nm": 80.13336962448014,
+          "window_u_nm": [
+            60.0,
+            100.0
+          ]
+        }
+      },
+      "grid_peak_se": 0.0007938944545691254,
+      "grid_peak_t_at_new_s_nm": 55.81240819803068,
+      "grid_peak_u_nm": 80.0,
+      "grid_peak_value": 0.546669337907501,
+      "mapped_primary_local_quadratic": {
+        "additional_repeatability_component_sd_nm": 5.619451812355534,
+        "t_MC_stat_component_sd_nm": 0.11760691057674345,
+        "t_at_new_s_nm": 56.00627471434827,
+        "t_combined_MC_and_s_local_covariance_sd_nm": 2.9238255380787694,
+        "t_new_s_local_covariance_component_sd_nm": 2.9214592914682553,
+        "u_MC_stat_sd_approx_nm": 0.16857457239179752,
+        "u_nm": 80.27788303365047
+      },
+      "primary_local_quadratic": {
+        "accepted_mc_fraction": 1.0,
+        "concave": true,
+        "n_points": 10,
+        "quadratic_coefficients": [
+          -5.7354985233945555e-05,
+          0.00920872734692324,
+          0.17596244487606327
+        ],
+        "reduced_chi2_local": 1.5631167281630276,
+        "vertex_mc_16_u_nm": 80.10736133980235,
+        "vertex_mc_84_u_nm": 80.44451048458595,
+        "vertex_mc_median_u_nm": 80.27788303365047,
+        "vertex_u_nm": 80.27835164948358,
+        "window_u_nm": [
+          60.0,
+          105.0
+        ]
+      }
+    },
+    "unweighted": {
+      "approx_95pct_indistinguishable_t_at_new_s_nm": [
+        66.27723473516144,
+        73.25378575991527
+      ],
+      "approx_95pct_indistinguishable_u_max_nm": 105.0,
+      "approx_95pct_indistinguishable_u_min_nm": 95.0,
+      "centered_window_sensitivity": {
+        "11_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 11,
+          "quadratic_coefficients": [
+            -5.778662920707944e-05,
+            0.011791137742896751,
+            0.138645661971168
+          ],
+          "reduced_chi2_local": 0.775237366922654,
+          "vertex_mc_16_u_nm": 101.8522218306619,
+          "vertex_mc_84_u_nm": 102.1962432856623,
+          "vertex_mc_median_u_nm": 102.02326190322697,
+          "vertex_u_nm": 102.02306229563065,
+          "window_u_nm": [
+            75.0,
+            125.0
+          ]
+        },
+        "7_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 7,
+          "quadratic_coefficients": [
+            -6.069264756136672e-05,
+            0.01232534828116627,
+            0.11443719785347639
+          ],
+          "reduced_chi2_local": 0.41355917051104363,
+          "vertex_mc_16_u_nm": 101.22020126507607,
+          "vertex_mc_84_u_nm": 101.87353199395243,
+          "vertex_mc_median_u_nm": 101.53762489525468,
+          "vertex_u_nm": 101.53905601748575,
+          "window_u_nm": [
+            85.0,
+            115.0
+          ]
+        },
+        "9_centered_points": {
+          "accepted_mc_fraction": 1.0,
+          "concave": true,
+          "n_points": 9,
+          "quadratic_coefficients": [
+            -5.630253753707848e-05,
+            0.011472582893048866,
+            0.1554863599080818
+          ],
+          "reduced_chi2_local": 0.6575192743013796,
+          "vertex_mc_16_u_nm": 101.64661525613955,
+          "vertex_mc_84_u_nm": 102.12752634766512,
+          "vertex_mc_median_u_nm": 101.88399497204948,
+          "vertex_u_nm": 101.88335548369828,
+          "window_u_nm": [
+            80.0,
+            120.0
+          ]
+        }
+      },
+      "grid_peak_se": 0.0009808979506956614,
+      "grid_peak_t_at_new_s_nm": 69.76551024753836,
+      "grid_peak_u_nm": 100.0,
+      "grid_peak_value": 0.739935,
+      "mapped_primary_local_quadratic": {
+        "additional_repeatability_component_sd_nm": 7.0940190521459545,
+        "t_MC_stat_component_sd_nm": 0.2939610703015265,
+        "t_at_new_s_nm": 70.70255126838869,
+        "t_combined_MC_and_s_local_covariance_sd_nm": 3.699758908430861,
+        "t_new_s_local_covariance_component_sd_nm": 3.6880622106548984,
+        "u_MC_stat_sd_approx_nm": 0.4213558666144763,
+        "u_nm": 101.34312931637076
+      },
+      "primary_local_quadratic": {
+        "accepted_mc_fraction": 1.0,
+        "concave": true,
+        "n_points": 11,
+        "quadratic_coefficients": [
+          -4.948661137191279e-05,
+          0.010030399330325679,
+          0.23107979993255867
+        ],
+        "reduced_chi2_local": 1.034677111473196,
+        "vertex_mc_16_u_nm": 100.91086598264141,
+        "vertex_mc_84_u_nm": 101.75357771587036,
+        "vertex_mc_median_u_nm": 101.34312931637076,
+        "vertex_u_nm": 101.34457636372584,
+        "window_u_nm": [
+          90.0,
+          140.0
+        ]
+      }
+    }
+  },
+  "population_partitions_at_experimental_thickness": {
+    "40.0": {
+      "Q_gt14p2_fraction_of_partitioned_Q": 0.6233082054727662,
+      "Q_gt14p2_over_Q_le14p2": 1.6546901592455656,
+      "Q_le14p2_fraction_of_partitioned_Q": 0.3766917945272337,
+      "Q_sqrtE_gt14p2_per_incident": 0.5118981081875671,
+      "Q_sqrtE_le14p2_per_incident": 0.3093619100393758,
+      "count_gt14p2_fraction_of_transmitted": 0.6310979142895012,
+      "count_gt14p2_per_incident": 0.6144152983915696,
+      "count_le14p2_fraction_of_transmitted": 0.36892833705295086,
+      "count_le14p2_per_incident": 0.359175983889423,
+      "experimental_t_nm": 40.0,
+      "raw_SRIM_u_equals_t_over_s_nm": 57.3349207338613,
+      "transmission_per_incident": 0.9735657248737493
+    },
+    "55.0": {
+      "Q_gt14p2_fraction_of_partitioned_Q": 0.7407700214547149,
+      "Q_gt14p2_over_Q_le14p2": 2.857578531663957,
+      "Q_le14p2_fraction_of_partitioned_Q": 0.25922997854528507,
+      "Q_sqrtE_gt14p2_per_incident": 0.5464832122863752,
+      "Q_sqrtE_le14p2_per_incident": 0.1912399628674982,
+      "count_gt14p2_fraction_of_transmitted": 0.749929505565973,
+      "count_gt14p2_per_incident": 0.7096513649460774,
+      "count_le14p2_fraction_of_transmitted": 0.2500927583877615,
+      "count_le14p2_per_incident": 0.23666046746495334,
+      "experimental_t_nm": 55.0,
+      "raw_SRIM_u_equals_t_over_s_nm": 78.83551600905929,
+      "transmission_per_incident": 0.9462907642372363
+    }
+  },
+  "positive_external_plus_direct_mixtures_common_Model_B_sigma": {
+    "horizontal_floor_sec": {
+      "free_s": {
+        "aic_with_frozen_sigma_eff": -43.721318123783504,
+        "amplitude_ratio_external_over_direct": 1.6912593124824291,
+        "bic_with_frozen_sigma_eff": -40.88911731937466,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": 0.369989736960024,
+          "delta_BIC_vs_Model_B_common_sigma": 0.369989736960024,
+          "delta_chi2_vs_Model_B": 0.369989736960024
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.3355979999333908,
+          "baseline_fraction_of_total": 0.24723865381136154,
+          "direct_component": 0.17956324769979087,
+          "direct_fraction_of_above_baseline_signal": 0.1757345476510558,
+          "direct_fraction_of_total": 0.13228617466166018,
+          "external_component": 0.8422235898908317,
+          "external_fraction_of_above_baseline_signal": 0.8242654523489442,
+          "external_fraction_of_total": 0.6204751715269782,
+          "t_peak_nm": 42.111352484141236,
+          "total": 1.3573848375240134,
+          "u_peak_nm": 65.71474130247566,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 13.819546161805707,
+        "data_dof": 11,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6408204863853704,
+        "external_basis": "sqrt(E_exit/E0)*sec(theta) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -51.721318123783504,
+        "label": "horizontal_floor_sec_gt14p2_plus_direct_le14p2_free_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3573848375240134,
+        "model_peak_t_nm": 42.111352484141236,
+        "own_preliminary_slope_sigma_eff": [
+          0.015935265668012608,
+          0.10002933004689317,
+          0.11311386834013398,
+          0.08483378133989347,
+          0.03916963321844105,
+          0.015414008307698158,
+          0.05456817016103508,
+          0.0356981283548311,
+          0.14557248299857678,
+          0.0984248712932817,
+          0.04245959820106905,
+          0.03581982070067352,
+          0.023706037733238497,
+          0.024285982819880664,
+          0.031149882490942353
+        ],
+        "parameter_covariance": [
+          [
+            0.00022656109551059644,
+            -0.00018309950246756445,
+            -0.00037317141131946373,
+            -0.00016350438012841643
+          ],
+          [
+            -0.00018309950246756434,
+            0.0016815721152669803,
+            -0.002139227695208197,
+            -0.00033993062306598824
+          ],
+          [
+            -0.0003731714113194642,
+            -0.002139227695208197,
+            0.005551442420579364,
+            0.0013386642139536621
+          ],
+          [
+            -0.00016350438012841643,
+            -0.00033993062306598786,
+            0.001338664213953661,
+            0.0010159062081969944
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2",
+          "s"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.0745080023928931,
+          "A_external_gt14p2": 0.04100697642190875,
+          "C0": 0.015051946568819478,
+          "s": 0.03187328361178048
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.701135967233895,
+          "A_external_gt14p2": 1.1858027339007002,
+          "C0": 0.3355979999333908,
+          "s": 0.6408204863853704
+        },
+        "preliminary_y_only_objective": 140.77144231205364,
+        "preliminary_y_only_parameters": [
+          0.3369259340300808,
+          0.9723428244195356,
+          0.9677041193050168,
+          0.6983458833878875
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 1.2563223783459734,
+        "s_fixed": null,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 13.819546161805707
+      },
+      "s_fixed_to_new_Model_B": {
+        "aic_with_frozen_sigma_eff": -42.151003597728916,
+        "amplitude_ratio_external_over_direct": 1.4960751801853691,
+        "bic_with_frozen_sigma_eff": -40.026852994422285,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": 1.9403042630146086,
+          "delta_BIC_vs_Model_B_common_sigma": 1.2322540619123985,
+          "delta_chi2_vs_Model_B": 3.9403042630146086
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.32353835375249557,
+          "baseline_fraction_of_total": 0.2392476521312146,
+          "direct_component": 0.2030179916744067,
+          "direct_fraction_of_above_baseline_signal": 0.19733909810998448,
+          "direct_fraction_of_total": 0.15012618221347931,
+          "external_component": 0.8257593444886335,
+          "external_fraction_of_above_baseline_signal": 0.8026609018900154,
+          "external_fraction_of_total": 0.6106261656553061,
+          "t_peak_nm": 45.33822620967917,
+          "total": 1.3523156899155357,
+          "u_peak_nm": 64.9865901486457,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 17.389860687860292,
+        "data_dof": 12,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6976551024753835,
+        "external_basis": "sqrt(E_exit/E0)*sec(theta) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -48.151003597728916,
+        "label": "horizontal_floor_sec_gt14p2_plus_direct_le14p2_fixed_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3523156899155357,
+        "model_peak_t_nm": 45.33822620967917,
+        "own_preliminary_slope_sigma_eff": [
+          0.015941384795028067,
+          0.09944647113808652,
+          0.11302316815572758,
+          0.08480592810187214,
+          0.03884182889376036,
+          0.015382037083911521,
+          0.0545707769300371,
+          0.03574843493324082,
+          0.1469338315997221,
+          0.09830492078859841,
+          0.04230536076694083,
+          0.03581686671143069,
+          0.02372102141487108,
+          0.024279890295126207,
+          0.031076543600266984
+        ],
+        "parameter_covariance": [
+          [
+            0.00023690717521904274,
+            -0.000290345269231805,
+            -0.0001795886976518817
+          ],
+          [
+            -0.0002903452692318051,
+            0.0019562200487967343,
+            -0.0018472041484396695
+          ],
+          [
+            -0.00017958869765188153,
+            -0.0018472041484396695,
+            0.0036999044641346577
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.06082683999793724,
+          "A_external_gt14p2": 0.04422917644266886,
+          "C0": 0.015391789214352006
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.7799952455485243,
+          "A_external_gt14p2": 1.1669315275277397,
+          "C0": 0.32353835375249557
+        },
+        "preliminary_y_only_objective": 140.7852167178269,
+        "preliminary_y_only_parameters": [
+          0.3374723054247038,
+          0.9734664327675625,
+          0.9651430083982057
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 1.449155057321691,
+        "s_fixed": 0.6976551024753835,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 17.389860687860292
+      }
+    },
+    "horizontal_floor_sec_cap4": {
+      "free_s": {
+        "aic_with_frozen_sigma_eff": -44.29383309449121,
+        "amplitude_ratio_external_over_direct": 1.78740581381699,
+        "bic_with_frozen_sigma_eff": -41.46163229008237,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": -0.20252523374768927,
+          "delta_BIC_vs_Model_B_common_sigma": -0.20252523374768927,
+          "delta_chi2_vs_Model_B": -0.20252523374768927
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.3356758060963739,
+          "baseline_fraction_of_total": 0.24728598057591095,
+          "direct_component": 0.158628033732703,
+          "direct_fraction_of_above_baseline_signal": 0.1552492072060454,
+          "direct_fraction_of_total": 0.11685825476846569,
+          "external_component": 0.86313585535546,
+          "external_fraction_of_above_baseline_signal": 0.8447507927939546,
+          "external_fraction_of_total": 0.6358557646556233,
+          "t_peak_nm": 45.53521850095,
+          "total": 1.3574396951845369,
+          "u_peak_nm": 70.59406955648156,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 13.247031191097994,
+        "data_dof": 11,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6450289491317364,
+        "external_basis": "sqrt(E_exit/E0)*min(sec(theta),4) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -52.29383309449121,
+        "label": "horizontal_floor_sec_cap4_gt14p2_plus_direct_le14p2_free_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3574396951845369,
+        "model_peak_t_nm": 45.53521850095,
+        "own_preliminary_slope_sigma_eff": [
+          0.016034649171785115,
+          0.08376419373809894,
+          0.11299105041212461,
+          0.09013350229779468,
+          0.039477829333843195,
+          0.014394816848300135,
+          0.054859207440295085,
+          0.045040847269947906,
+          0.08109691673297406,
+          0.10410067402582719,
+          0.04448143950517727,
+          0.035804450806050644,
+          0.023625979601427514,
+          0.022281477167647973,
+          0.02949485766070588
+        ],
+        "parameter_covariance": [
+          [
+            0.00021736910891200027,
+            -0.00018383261344091277,
+            -0.0003681004139787082,
+            -0.00015412499152189614
+          ],
+          [
+            -0.00018383261344091293,
+            0.0017489534540343977,
+            -0.0021590823353695343,
+            -0.0003211569078950735
+          ],
+          [
+            -0.0003681004139787081,
+            -0.0021590823353695343,
+            0.005511493340856386,
+            0.0013248497919115842
+          ],
+          [
+            -0.00015412499152189614,
+            -0.0003211569078950736,
+            0.0013248497919115842,
+            0.0009327652025395578
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2",
+          "s"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.0742394325197626,
+          "A_external_gt14p2": 0.04182049083923332,
+          "C0": 0.014743442912427214,
+          "s": 0.0305412049948845
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.6901170153412106,
+          "A_external_gt14p2": 1.2335191654349087,
+          "C0": 0.3356758060963739,
+          "s": 0.6450289491317364
+        },
+        "preliminary_y_only_objective": 135.1290554887051,
+        "preliminary_y_only_parameters": [
+          0.3325543361649837,
+          1.0116052327280962,
+          0.9689814617007576,
+          0.7089875827120474
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 1.2042755628270905,
+        "s_fixed": null,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 13.247031191097994
+      },
+      "s_fixed_to_new_Model_B": {
+        "aic_with_frozen_sigma_eff": -44.15904757968356,
+        "amplitude_ratio_external_over_direct": 1.593821824525364,
+        "bic_with_frozen_sigma_eff": -42.03489697637693,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": -0.06773971894003061,
+          "delta_BIC_vs_Model_B_common_sigma": -0.7757899200422407,
+          "delta_chi2_vs_Model_B": 1.9322602810599694
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.32460588312379846,
+          "baseline_fraction_of_total": 0.24004785000534368,
+          "direct_component": 0.1868461136390389,
+          "direct_fraction_of_above_baseline_signal": 0.1818189958518384,
+          "direct_fraction_of_total": 0.13817373680747405,
+          "external_component": 0.8408029104007654,
+          "external_fraction_of_above_baseline_signal": 0.8181810041481618,
+          "external_fraction_of_total": 0.6217784131871823,
+          "t_peak_nm": 47.27215053108927,
+          "total": 1.3522549071636027,
+          "u_peak_nm": 67.75862509047907,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 15.381816705905653,
+        "data_dof": 12,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6976551024753835,
+        "external_basis": "sqrt(E_exit/E0)*min(sec(theta),4) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -50.15904757968356,
+        "label": "horizontal_floor_sec_cap4_gt14p2_plus_direct_le14p2_fixed_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3522549071636027,
+        "model_peak_t_nm": 47.27215053108927,
+        "own_preliminary_slope_sigma_eff": [
+          0.01594567689521533,
+          0.09718571873602726,
+          0.11059373450824433,
+          0.08147961131917975,
+          0.03611965527135224,
+          0.014100906147132218,
+          0.05471139563636301,
+          0.04518392052249442,
+          0.08583235151557146,
+          0.10259254461341083,
+          0.042533987203012685,
+          0.03583267392002166,
+          0.023651032622934564,
+          0.022056267500081966,
+          0.029017500767768094
+        ],
+        "parameter_covariance": [
+          [
+            0.00020900776978627358,
+            -0.00026564148222594163,
+            -0.00015722974095302406
+          ],
+          [
+            -0.00026564148222594174,
+            0.0018780292047352381,
+            -0.001725933507708896
+          ],
+          [
+            -0.0001572297409530238,
+            -0.0017259335077088964,
+            0.003315974525022023
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.0575844989994879,
+          "A_external_gt14p2": 0.04333623431650745,
+          "C0": 0.014457101015980817
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.7635262848322674,
+          "A_external_gt14p2": 1.216924856364437,
+          "C0": 0.32460588312379846
+        },
+        "preliminary_y_only_objective": 136.262917107993,
+        "preliminary_y_only_parameters": [
+          0.3417026910963327,
+          1.0275081578467877,
+          0.9303750349038856
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 1.281818058825471,
+        "s_fixed": 0.6976551024753835,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 15.381816705905653
+      }
+    },
+    "ideal_vertical_tape_csc": {
+      "free_s": {
+        "aic_with_frozen_sigma_eff": -47.41275666222839,
+        "amplitude_ratio_external_over_direct": 1.1051907442365818,
+        "bic_with_frozen_sigma_eff": -44.58055585781955,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": -3.321448801484861,
+          "delta_BIC_vs_Model_B_common_sigma": -3.321448801484861,
+          "delta_chi2_vs_Model_B": -3.321448801484861
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.30278841240150517,
+          "baseline_fraction_of_total": 0.22291802478573133,
+          "direct_component": 0.2119650996418231,
+          "direct_fraction_of_above_baseline_signal": 0.200818380123911,
+          "direct_fraction_of_total": 0.1560523434860186,
+          "external_component": 0.8435413709861853,
+          "external_fraction_of_above_baseline_signal": 0.799181619876089,
+          "external_fraction_of_total": 0.62102963172825,
+          "t_peak_nm": 42.897321727485775,
+          "total": 1.3582948830295136,
+          "u_peak_nm": 53.89198080032778,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 10.128107623360822,
+        "data_dof": 11,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.7959871040261498,
+        "external_basis": "sqrt(E_exit/E0)/sin(theta) for theta>14.2 deg; idealized selected azimuth only",
+        "gaussian_deviance_with_frozen_sigma_eff": -55.41275666222839,
+        "label": "ideal_vertical_tape_csc_gt14p2_plus_direct_le14p2_free_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3582948830295136,
+        "model_peak_t_nm": 42.897321727485775,
+        "own_preliminary_slope_sigma_eff": [
+          0.02088398258489671,
+          0.08818759837738592,
+          0.1001965817728243,
+          0.08419897790406164,
+          0.05117823265770859,
+          0.023438049887086018,
+          0.054601392930430516,
+          0.06103325244067555,
+          0.08922563861316604,
+          0.09866368384704896,
+          0.05575369568239485,
+          0.0409746535473961,
+          0.033076221216788916,
+          0.02239003890984942,
+          0.03728204297535669
+        ],
+        "parameter_covariance": [
+          [
+            0.0004469490653219727,
+            -2.0532028289948295e-05,
+            -0.0011257139565838366,
+            -0.0006648119113657862
+          ],
+          [
+            -2.053202828994869e-05,
+            0.0005633637810618638,
+            -0.0012239265784020957,
+            -0.000237791630784334
+          ],
+          [
+            -0.0011257139565838353,
+            -0.0012239265784020966,
+            0.0062227050595170304,
+            0.0024218978831965156
+          ],
+          [
+            -0.0006648119113657861,
+            -0.00023779163078433476,
+            0.002421897883196517,
+            0.0015255414213406003
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2",
+          "s"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.07888412425524562,
+          "A_external_gt14p2": 0.023735285569418875,
+          "C0": 0.021141169913748214,
+          "s": 0.03905817995427591
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.6316551983864228,
+          "A_external_gt14p2": 0.6980994788055964,
+          "C0": 0.30278841240150517,
+          "s": 0.7959871040261498
+        },
+        "preliminary_y_only_objective": 57.42735375042327,
+        "preliminary_y_only_parameters": [
+          0.30677084623643563,
+          0.6805892029358065,
+          0.6532102166347699,
+          0.771152382603785
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 0.9207370566691657,
+        "s_fixed": null,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 10.128107623360822
+      },
+      "s_fixed_to_new_Model_B": {
+        "aic_with_frozen_sigma_eff": -42.10100159917479,
+        "amplitude_ratio_external_over_direct": 1.554577174928101,
+        "bic_with_frozen_sigma_eff": -39.97685099586816,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": 1.990306261568728,
+          "delta_BIC_vs_Model_B_common_sigma": 1.2822560604665179,
+          "delta_chi2_vs_Model_B": 3.990306261568728
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.33535399553418305,
+          "baseline_fraction_of_total": 0.24539382718144065,
+          "direct_component": 0.14456318835872198,
+          "direct_fraction_of_above_baseline_signal": 0.1401836983708697,
+          "direct_fraction_of_total": 0.10578348411919329,
+          "external_component": 0.8866778905880319,
+          "external_fraction_of_above_baseline_signal": 0.8598163016291304,
+          "external_fraction_of_total": 0.648822688699366,
+          "t_peak_nm": 39.85644072365532,
+          "total": 1.366595074480937,
+          "u_peak_nm": 57.12914674061548,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 17.43986268641441,
+        "data_dof": 12,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6976551024753835,
+        "external_basis": "sqrt(E_exit/E0)/sin(theta) for theta>14.2 deg; idealized selected azimuth only",
+        "gaussian_deviance_with_frozen_sigma_eff": -48.10100159917479,
+        "label": "ideal_vertical_tape_csc_gt14p2_plus_direct_le14p2_fixed_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.366595074480937,
+        "model_peak_t_nm": 39.85644072365532,
+        "own_preliminary_slope_sigma_eff": [
+          0.023385747780461305,
+          0.09903913506871381,
+          0.0933769564524169,
+          0.0675694119892915,
+          0.027138229887706363,
+          0.01228253739946877,
+          0.05456452339514478,
+          0.06273263872516086,
+          0.10739911543874546,
+          0.0874438106741738,
+          0.03927064918070373,
+          0.0471843766558982,
+          0.047484582849589875,
+          0.028395350358376693,
+          0.03811156390301036
+        ],
+        "parameter_covariance": [
+          [
+            0.0002318947332786536,
+            -0.00016809452859311641,
+            -0.00012561798520873256
+          ],
+          [
+            -0.00016809452859311636,
+            0.0007530097221675312,
+            -0.0014757874497789063
+          ],
+          [
+            -0.0001256179852087326,
+            -0.0014757874497789063,
+            0.004853588755147984
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.0696677023817205,
+          "A_external_gt14p2": 0.027441022615192955,
+          "C0": 0.015228090270242477
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.4650399690469355,
+          "A_external_gt14p2": 0.7229405213096365,
+          "C0": 0.33535399553418305
+        },
+        "preliminary_y_only_objective": 128.0513424772018,
+        "preliminary_y_only_parameters": [
+          0.36319806835878027,
+          0.739281653710808,
+          0.3782746372495542
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 1.4533218905345342,
+        "s_fixed": 0.6976551024753835,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 17.43986268641441
+      }
+    },
+    "sqrtE": {
+      "free_s": {
+        "aic_with_frozen_sigma_eff": -47.57835757539275,
+        "amplitude_ratio_external_over_direct": 2.4053696141521512,
+        "bic_with_frozen_sigma_eff": -44.74615677098391,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": -3.487049714649226,
+          "delta_BIC_vs_Model_B_common_sigma": -3.487049714649226,
+          "delta_chi2_vs_Model_B": -3.487049714649226
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.3266649804888665,
+          "baseline_fraction_of_total": 0.24062624381220774,
+          "direct_component": 0.1920724067385446,
+          "direct_fraction_of_above_baseline_signal": 0.1863158520209449,
+          "direct_fraction_of_total": 0.14148336838647377,
+          "external_component": 0.8388243454978276,
+          "external_fraction_of_above_baseline_signal": 0.8136841479790552,
+          "external_fraction_of_total": 0.6178903878013184,
+          "t_peak_nm": 42.62533237101031,
+          "total": 1.3575617327252387,
+          "u_peak_nm": 60.49078106446367,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 9.962506710196458,
+        "data_dof": 11,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.7046583234821426,
+        "external_basis": "sqrt(E_exit/E0) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -55.57835757539275,
+        "label": "sqrtE_gt14p2_plus_direct_le14p2_free_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3575617327252387,
+        "model_peak_t_nm": 42.62533237101031,
+        "own_preliminary_slope_sigma_eff": [
+          0.016188874210985717,
+          0.08178578555524281,
+          0.10933358831394714,
+          0.08793476983455532,
+          0.044931896804371756,
+          0.0165790309649902,
+          0.054674347419572174,
+          0.052285094317167054,
+          0.08105167632835539,
+          0.09958047316446277,
+          0.04696843960270656,
+          0.036499322489473886,
+          0.025282466374005764,
+          0.02201512914947781,
+          0.033000001126856145
+        ],
+        "parameter_covariance": [
+          [
+            0.0002109851154185714,
+            -0.00014462649313840142,
+            -0.0004492739372883038,
+            -0.00023817571495278507
+          ],
+          [
+            -0.0001446264931384017,
+            0.00248300691313103,
+            -0.0022851985991861955,
+            -0.00036723031332914466
+          ],
+          [
+            -0.00044927393728830343,
+            -0.002285198599186196,
+            0.004418165233354144,
+            0.0012994929367222893
+          ],
+          [
+            -0.00023817571495278507,
+            -0.00036723031332914515,
+            0.00129949293672229,
+            0.0008852896692670631
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2",
+          "s"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.06646928037337356,
+          "A_external_gt14p2": 0.04982977938071801,
+          "C0": 0.01452532668887593,
+          "s": 0.029753817725916502
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.667843689010443,
+          "A_external_gt14p2": 1.6064109165489986,
+          "C0": 0.3266649804888665,
+          "s": 0.7046583234821426
+        },
+        "preliminary_y_only_objective": 90.22815407543385,
+        "preliminary_y_only_parameters": [
+          0.32318611306580675,
+          1.4122535936441631,
+          0.8505527799746717,
+          0.7322450957152646
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 0.9056824281996779,
+        "s_fixed": null,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 9.962506710196458
+      },
+      "s_fixed_to_new_Model_B": {
+        "aic_with_frozen_sigma_eff": -49.533982546846026,
+        "amplitude_ratio_external_over_direct": 2.448255202971305,
+        "bic_with_frozen_sigma_eff": -47.409831943539395,
+        "caveat": "Fixing or constraining s with a Model-B fit to the same intensity data is a sensitivity analysis, not independent evidence; an external calibration would be required for a valid prior.",
+        "comparison_to_Model_B": {
+          "delta_AIC_vs_Model_B_common_sigma": -5.442674686102501,
+          "delta_BIC_vs_Model_B_common_sigma": -6.150724887204712,
+          "delta_chi2_vs_Model_B": -3.4426746861025013
+        },
+        "components_at_model_peak": {
+          "C0_component": 0.32852013059291285,
+          "baseline_fraction_of_total": 0.24191444990128705,
+          "direct_component": 0.1877021499630287,
+          "direct_fraction_of_above_baseline_signal": 0.18232694362226506,
+          "direct_fraction_of_total": 0.13821942135370183,
+          "external_component": 0.8417789910794037,
+          "external_fraction_of_above_baseline_signal": 0.8176730563777348,
+          "external_fraction_of_total": 0.619866128745011,
+          "t_peak_nm": 42.42534019713129,
+          "total": 1.3580012716353453,
+          "u_peak_nm": 60.81133793274056,
+          "warning": "These are fitted basis-component contributions, not physical SE3 fractions; amplitudes absorb yield, interception, visibility, and collection efficiency."
+        },
+        "data_chi2": 10.006881738743182,
+        "data_dof": 12,
+        "direct_basis": "sqrt(E_exit/E0) for theta<=14.2 deg",
+        "effective_s": 0.6976551024753835,
+        "external_basis": "sqrt(E_exit/E0) for theta>14.2 deg",
+        "gaussian_deviance_with_frozen_sigma_eff": -55.533982546846026,
+        "label": "sqrtE_gt14p2_plus_direct_le14p2_fixed_s",
+        "model": "I(t)=C0+A_external*X_gt14p2(t/s)+A_direct*Q_sqrtE_le14p2(t/s); all amplitudes nonnegative",
+        "model_peak_intensity": 1.3580012716353453,
+        "model_peak_t_nm": 42.42534019713129,
+        "own_preliminary_slope_sigma_eff": [
+          0.018238743971377383,
+          0.09753391235371986,
+          0.10326921254193215,
+          0.07537906043587288,
+          0.03202290743998989,
+          0.013111622516891686,
+          0.05456118818694002,
+          0.050767944410125325,
+          0.09869683490866424,
+          0.09732322288880267,
+          0.040892454779861816,
+          0.03775872991716854,
+          0.02884687770965843,
+          0.02329417811894017,
+          0.03102594601002885
+        ],
+        "parameter_covariance": [
+          [
+            0.0001347506957956279,
+            -0.00022217977438423705,
+            -9.206784995034085e-05
+          ],
+          [
+            -0.00022217977438423686,
+            0.0021257470174282276,
+            -0.0016173386832988275
+          ],
+          [
+            -9.2067849950341e-05,
+            -0.0016173386832988273,
+            0.0023558856288946116
+          ]
+        ],
+        "parameter_order_for_covariance": [
+          "C0",
+          "A_external_gt14p2",
+          "A_direct_le14p2"
+        ],
+        "parameter_se_local_covariance": {
+          "A_direct_le14p2": 0.04853746623892322,
+          "A_external_gt14p2": 0.04610582411613773,
+          "C0": 0.011608216736244542
+        },
+        "parameters": {
+          "A_direct_le14p2": 0.657381954078776,
+          "A_external_gt14p2": 1.6094387894128068,
+          "C0": 0.32852013059291285
+        },
+        "preliminary_y_only_objective": 106.24647213530955,
+        "preliminary_y_only_parameters": [
+          0.350554420701024,
+          1.4771051933616588,
+          0.7265874713865687
+        ],
+        "prior_chi2": 0.0,
+        "reduced_data_chi2": 0.8339068115619318,
+        "s_fixed": 0.6976551024753835,
+        "s_gaussian_constraint": null,
+        "sigma_eff": [
+          0.016018746710936067,
+          0.08662507243261339,
+          0.11260381131260637,
+          0.08880985425232335,
+          0.0388984524753122,
+          0.014320910941294729,
+          0.0548412716906697,
+          0.0456706208887519,
+          0.08303525237646761,
+          0.10407914609099625,
+          0.04401496317699043,
+          0.04601642190601135,
+          0.02636567876807504,
+          0.022032144373908304,
+          0.030723040966555124
+        ],
+        "threshold_deg_from_membrane_normal": 14.2,
+        "total_objective": 10.006881738743182
+      }
+    }
+  },
+  "route_only_common_Model_B_sigma": {
+    "horizontal_floor_sec": {
+      "aic_with_frozen_sigma_eff": 22.579564184459144,
+      "basis": "sqrt(E_exit/E0)*sec(theta) for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 24.703714787765776,
+      "chi2": 82.12042847004835,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 66.67087204520267,
+        "delta_BIC_vs_Model_B_common_sigma": 65.96282184410046,
+        "delta_chi2_vs_Model_B": 68.67087204520267
+      },
+      "dof": 12,
+      "gaussian_deviance_with_frozen_sigma_eff": 16.579564184459144,
+      "label": "route_only_floor_sqrtE_sec_gt14p2_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s), C0>=0, A>=0",
+      "model_peak_intensity": 1.4115704693198416,
+      "model_peak_t_nm": 46.09119674433367,
+      "n_points": 15,
+      "own_preliminary_slope_sigma_eff": [
+        0.05206393020238054,
+        0.12595595178720126,
+        0.10335483300410346,
+        0.04422724785917681,
+        0.008957985929180678,
+        0.01002050049643825,
+        0.0594294478611571,
+        0.045675889445658355,
+        0.1320063087012431,
+        0.0668298281868854,
+        0.032042692026101625,
+        0.054389846021093424,
+        0.0588435436335609,
+        0.05471680670989422,
+        0.026877094252413736
+      ],
+      "parameter_covariance": [
+        [
+          0.0010415244677011676,
+          -0.0015135022435549684,
+          -2.2594894938050798e-05
+        ],
+        [
+          -0.001513502243554968,
+          0.0037009395869595646,
+          0.0001643592311886109
+        ],
+        [
+          -2.2594894938050777e-05,
+          0.00016435923118861086,
+          0.0004498785296831605
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.06083534816995432,
+        "C0": 0.03227265820630782,
+        "s": 0.021210340159534467
+      },
+      "parameters": {
+        "A": 1.3778525344331716,
+        "C0": 0.36373632415729934,
+        "s": 0.4851680820235603
+      },
+      "preliminary_y_only": {
+        "chi2": 599.4034068390113,
+        "parameters": [
+          0.40632755777902557,
+          1.3095283077595923,
+          0.595865552165396
+        ]
+      },
+      "procedure": "WLS with externally supplied common sigma_eff",
+      "q_at_fit_data": [
+        0.7169381542122527,
+        0.27423519463337354,
+        0.010307293464248753,
+        0.0012161772181588332,
+        1.552170173506805e-05,
+        0.0,
+        0.7565057868587558,
+        0.6430073030027047,
+        0.3052187071049566,
+        0.003270703007848815,
+        1.7884213100267359e-06,
+        0.3908821598188208,
+        0.5989173782823919,
+        0.7333690786215261,
+        0.7309544890430095
+      ],
+      "reduced_chi2": 6.843369039170696,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2,
+      "u_data_max_nm": 436.9619681405691,
+      "u_data_min_nm": 29.062093164066155
+    },
+    "horizontal_floor_sec_cap4": {
+      "aic_with_frozen_sigma_eff": 20.851803824570524,
+      "basis": "sqrt(E_exit/E0)*min(sec(theta),4) for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 22.975954427877156,
+      "chi2": 80.39266811015973,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 64.94311168531405,
+        "delta_BIC_vs_Model_B_common_sigma": 64.23506148421184,
+        "delta_chi2_vs_Model_B": 66.94311168531405
+      },
+      "dof": 12,
+      "gaussian_deviance_with_frozen_sigma_eff": 14.851803824570524,
+      "label": "route_only_floor_sqrtE_minsec4_gt14p2_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s), C0>=0, A>=0",
+      "model_peak_intensity": 1.4106363598849452,
+      "model_peak_t_nm": 45.17723250970656,
+      "n_points": 15,
+      "own_preliminary_slope_sigma_eff": [
+        0.050803499363891454,
+        0.12709286277274565,
+        0.08373163961886385,
+        0.04048766657467739,
+        0.00879553013452774,
+        0.010020608840706489,
+        0.06267491723946886,
+        0.0566388647262436,
+        0.12150165000493585,
+        0.06945846833696039,
+        0.03203255475898796,
+        0.054652123710723255,
+        0.05990892274892515,
+        0.047380348014408734,
+        0.024061767415560938
+      ],
+      "parameter_covariance": [
+        [
+          0.0010210893058302788,
+          -0.001565659248902876,
+          -3.0290219345791052e-05
+        ],
+        [
+          -0.001565659248902876,
+          0.0042481098164849716,
+          0.0005196561610207552
+        ],
+        [
+          -3.0290219345791052e-05,
+          0.0005196561610207552,
+          0.0008110619862535892
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.06517752539399584,
+        "C0": 0.03195448803893248,
+        "s": 0.028479150026880878
+      },
+      "parameters": {
+        "A": 1.4444286787859935,
+        "C0": 0.36291724388562774,
+        "s": 0.5019728991857911
+      },
+      "preliminary_y_only": {
+        "chi2": 576.3712936561109,
+        "parameters": [
+          0.40974865945425093,
+          1.369061903555833,
+          0.594236395015
+        ]
+      },
+      "procedure": "WLS with externally supplied common sigma_eff",
+      "q_at_fit_data": [
+        0.683651533799898,
+        0.290032070206269,
+        0.01538900877137157,
+        0.00203018845100195,
+        4.835720295529684e-05,
+        0.0,
+        0.7212737435790588,
+        0.6246037412253147,
+        0.3178491762574898,
+        0.005786247033374936,
+        1.9228608566936613e-05,
+        0.3691190691245367,
+        0.565326070284929,
+        0.7006419679917226,
+        0.7016407790181051
+      ],
+      "reduced_chi2": 6.699389009179978,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2,
+      "u_data_max_nm": 422.3335569387665,
+      "u_data_min_nm": 28.089165815267016
+    },
+    "ideal_vertical_tape_csc": {
+      "aic_with_frozen_sigma_eff": 2.5074500790874907,
+      "basis": "sqrt(E_exit/E0)/sin(theta) for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 4.6316006823941205,
+      "chi2": 62.0483143646767,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 46.59875793983102,
+        "delta_BIC_vs_Model_B_common_sigma": 45.89070773872881,
+        "delta_chi2_vs_Model_B": 48.59875793983102
+      },
+      "dof": 12,
+      "gaussian_deviance_with_frozen_sigma_eff": -3.4925499209125093,
+      "label": "route_only_tape_sqrtE_csc_gt14p2_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s), C0>=0, A>=0",
+      "model_peak_intensity": 1.3910578923431258,
+      "model_peak_t_nm": 40.66040926264897,
+      "n_points": 15,
+      "own_preliminary_slope_sigma_eff": [
+        0.040855152594599466,
+        0.10444755201584358,
+        0.09916127036088922,
+        0.0674552767037226,
+        0.02769609927987475,
+        0.01183700200099936,
+        0.05655058087102417,
+        0.06128123233044758,
+        0.11278177880074192,
+        0.09269831504977423,
+        0.0390076181347542,
+        0.05908987394046203,
+        0.06924416413340068,
+        0.04493817479075958,
+        0.031313461038379384
+      ],
+      "parameter_covariance": [
+        [
+          0.0008082664643349867,
+          -0.0007349180334167591,
+          -0.00010425262974279275
+        ],
+        [
+          -0.0007349180334167591,
+          0.0011547777422074765,
+          0.00040727559489145925
+        ],
+        [
+          -0.00010425262974279282,
+          0.0004072755948914593,
+          0.0011170515735076394
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.03398202086703315,
+        "C0": 0.028430027512033586,
+        "s": 0.03342232148591177
+      },
+      "parameters": {
+        "A": 0.8356763093776276,
+        "C0": 0.354627914671611,
+        "s": 0.6255393851768444
+      },
+      "preliminary_y_only": {
+        "chi2": 230.82213493745422,
+        "parameters": [
+          0.36146731777683794,
+          0.8365486478167672,
+          0.6895925451646466
+        ]
+      },
+      "procedure": "WLS with externally supplied common sigma_eff",
+      "q_at_fit_data": [
+        1.1993632662497715,
+        0.6473998797982584,
+        0.14278845942316076,
+        0.04937130587983858,
+        0.007613228756856205,
+        0.0005115301566581223,
+        1.2402268438157487,
+        1.060135389128214,
+        0.6839796830198249,
+        0.08677226681383303,
+        0.0046287074260664566,
+        0.6491796586039593,
+        1.002874569249008,
+        1.2254456676435896,
+        1.1768494067714932
+      ],
+      "reduced_chi2": 5.170692863723058,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2,
+      "u_data_max_nm": 338.90751729416064,
+      "u_data_min_nm": 22.54054714079087
+    },
+    "sqrtE": {
+      "aic_with_frozen_sigma_eff": 12.298832868027574,
+      "basis": "sqrt(E_exit/E0) for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 14.422983471334204,
+      "chi2": 71.83969715361678,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 56.3901407287711,
+        "delta_BIC_vs_Model_B_common_sigma": 55.68209052766889,
+        "delta_chi2_vs_Model_B": 58.3901407287711
+      },
+      "dof": 12,
+      "gaussian_deviance_with_frozen_sigma_eff": 6.298832868027574,
+      "label": "route_only_sqrtE_gt14p2_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s), C0>=0, A>=0",
+      "model_peak_intensity": 1.4006597498364242,
+      "model_peak_t_nm": 43.546296331723184,
+      "n_points": 15,
+      "own_preliminary_slope_sigma_eff": [
+        0.051326058212985824,
+        0.120825997071103,
+        0.10469509507026487,
+        0.05776804284441296,
+        0.015966629224245733,
+        0.01035409325465844,
+        0.05962813493613293,
+        0.05387639777609444,
+        0.11630928331006586,
+        0.07751247656130247,
+        0.03353359049588373,
+        0.05614133421237077,
+        0.06511429080235022,
+        0.04729253395484265,
+        0.02653509431943101
+      ],
+      "parameter_covariance": [
+        [
+          0.00091736362646017,
+          -0.0018565436594367385,
+          -4.4601530831377066e-05
+        ],
+        [
+          -0.0018565436594367385,
+          0.00655935489060602,
+          0.0007077065917332995
+        ],
+        [
+          -4.460153083137699e-05,
+          0.0007077065917332993,
+          0.0010033538630151314
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.08098984436709346,
+        "C0": 0.030288011266178735,
+        "s": 0.031675761443336
+      },
+      "parameters": {
+        "A": 1.903310642071452,
+        "C0": 0.3601781813465599,
+        "s": 0.5443263211862732
+      },
+      "preliminary_y_only": {
+        "chi2": 418.2575655849961,
+        "parameters": [
+          0.3891621086422152,
+          1.842271625451506,
+          0.6348862086312383
+        ]
+      },
+      "procedure": "WLS with externally supplied common sigma_eff",
+      "q_at_fit_data": [
+        0.5225344242494753,
+        0.24690272536593322,
+        0.0249397789243031,
+        0.005024858409914806,
+        0.00023365104718303006,
+        3.636339911300055e-06,
+        0.5442264022029498,
+        0.46825148374897946,
+        0.2658189476706511,
+        0.011454315751351392,
+        8.216151698873058e-05,
+        0.2811659203776973,
+        0.43534052206975454,
+        0.5331112750412339,
+        0.5239924198958842
+      ],
+      "reduced_chi2": 5.986641429468065,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2,
+      "u_data_max_nm": 389.47225542571505,
+      "u_data_min_nm": 25.90357925237067
+    },
+    "sqrtE_s_fixed_to_new_Model_B": {
+      "aic_with_frozen_sigma_eff": 101.43341657401984,
+      "basis": "sqrt(E_exit/E0) for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 102.84951697622427,
+      "caveat": "The fixed value of s comes from Model B fitted to the same intensity data and is a sensitivity test, not independent evidence.",
+      "chi2": 162.97428085960905,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 145.52472443476336,
+        "delta_BIC_vs_Model_B_common_sigma": 144.10862403255894,
+        "delta_chi2_vs_Model_B": 149.52472443476336
+      },
+      "dof": 13,
+      "gaussian_deviance_with_frozen_sigma_eff": 97.43341657401984,
+      "label": "route_only_sqrtE_gt14p2_fixed_s_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s_fixed), C0>=0, A>=0",
+      "model_peak_intensity": 1.4807528387604474,
+      "model_peak_t_nm": 55.81281631659268,
+      "n_points": 15,
+      "parameter_covariance": [
+        [
+          0.0019716753381289463,
+          -0.004290320547293399
+        ],
+        [
+          -0.0042903205472934,
+          0.01526537146648985
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.12355311192555957,
+        "C0": 0.04440355096305865
+      },
+      "parameters": {
+        "A": 2.0607379769923244,
+        "C0": 0.35421057340902357,
+        "s_fixed": 0.6976551024753835
+      },
+      "procedure": "Exact nonnegative weighted-linear least squares with s fixed and the common frozen Model-B sigma_eff",
+      "q_at_fit_data": [
+        0.4627897196240486,
+        0.4056850326820615,
+        0.1451611873977986,
+        0.0690786017059486,
+        0.01835923269450629,
+        0.002921372807051183,
+        0.5150442766129849,
+        0.535301050021746,
+        0.4207697737591871,
+        0.10236044891944267,
+        0.013063750582836703,
+        0.2215241152400261,
+        0.35608992319818195,
+        0.48339708348201654,
+        0.5459417571124694
+      ],
+      "reduced_chi2": 12.53648314304685,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2
+    },
+    "unweighted": {
+      "aic_with_frozen_sigma_eff": 24.59811580551039,
+      "basis": "unit weight for theta>14.2 deg",
+      "bic_with_frozen_sigma_eff": 26.72226640881702,
+      "chi2": 84.1389800910996,
+      "comparison_to_Model_B": {
+        "delta_AIC_vs_Model_B_common_sigma": 68.68942366625392,
+        "delta_BIC_vs_Model_B_common_sigma": 67.9813734651517,
+        "delta_chi2_vs_Model_B": 70.68942366625392
+      },
+      "dof": 12,
+      "gaussian_deviance_with_frozen_sigma_eff": 18.59811580551039,
+      "label": "route_only_unweighted_gt14p2_common_Model_B_sigma",
+      "model": "I(t)=C0+A*Q(t/s), C0>=0, A>=0",
+      "model_peak_intensity": 1.41173139161961,
+      "model_peak_t_nm": 44.51025860982004,
+      "n_points": 15,
+      "own_preliminary_slope_sigma_eff": [
+        0.04443371521126139,
+        0.13203814925786148,
+        0.08093614440085972,
+        0.027942852811132863,
+        0.0063535942091704255,
+        0.010017903327891708,
+        0.06430678683522587,
+        0.05382856475936952,
+        0.1301463873868077,
+        0.05557989052331299,
+        0.03181858765705895,
+        0.054401381210339474,
+        0.05791389914594952,
+        0.04547902736978238,
+        0.02391445906542518
+      ],
+      "parameter_covariance": [
+        [
+          0.0010672174999690643,
+          -0.0016048529424794596,
+          -2.64159741830126e-05
+        ],
+        [
+          -0.0016048529424794596,
+          0.004262917753191798,
+          0.00044208649900384243
+        ],
+        [
+          -2.64159741830126e-05,
+          0.00044208649900384243,
+          0.0006110270213945323
+        ]
+      ],
+      "parameter_se_local_covariance": {
+        "A": 0.06529102352691217,
+        "C0": 0.03266829502696864,
+        "s": 0.02471896076687959
+      },
+      "parameters": {
+        "A": 1.4161841677882183,
+        "C0": 0.36384715943941853,
+        "s": 0.4450948904087326
+      },
+      "preliminary_y_only": {
+        "chi2": 765.5918077885093,
+        "parameters": [
+          0.42503563523048155,
+          1.300959657287294,
+          0.5329266628223032
+        ]
+      },
+      "procedure": "WLS with externally supplied common sigma_eff",
+      "q_at_fit_data": [
+        0.693977921031928,
+        0.27868206436007853,
+        0.005759812132984962,
+        0.0003275003396676124,
+        0.0,
+        0.0,
+        0.7335962467913913,
+        0.6470880122769971,
+        0.3105207003509467,
+        0.0014228305698201008,
+        0.0,
+        0.3736805895404111,
+        0.5802752264553214,
+        0.7128512349271563,
+        0.7188642473364597
+      ],
+      "reduced_chi2": 7.0115816742582995,
+      "sigma_eff": [
+        0.016018746710936067,
+        0.08662507243261339,
+        0.11260381131260637,
+        0.08880985425232335,
+        0.0388984524753122,
+        0.014320910941294729,
+        0.0548412716906697,
+        0.0456706208887519,
+        0.08303525237646761,
+        0.10407914609099625,
+        0.04401496317699043,
+        0.04601642190601135,
+        0.02636567876807504,
+        0.022032144373908304,
+        0.030723040966555124
+      ],
+      "threshold_deg_from_membrane_normal": 14.2,
+      "u_data_max_nm": 476.30292903456933,
+      "u_data_min_nm": 31.678638204657677
+    }
+  }
+}

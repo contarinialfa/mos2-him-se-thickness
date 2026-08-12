@@ -1,0 +1,996 @@
+{
+  "created_utc": "2026-07-30T19:50:18.790147+00:00",
+  "command": [
+    "se-intensity-modeling-model-fix\\.venv\\Scripts\\python.exe",
+    "scripts\\model_sensitivity.py"
+  ],
+  "analysis_quality": "production",
+  "run_success": true,
+  "repository_root": "se-intensity-modeling-model-fix",
+  "git_commit": "3057cc0de661863ec3406da791a88e79bb14aa86",
+  "git_status_porcelain": "M PROVENANCE.md\n M README.md\n M pyproject.toml\n M scripts/bayesian_normalize.py\n M scripts/paper_model_comparison.py\n?? data/reference_posteriors/\n?? requirements-lock.txt\n?? scripts/model_sensitivity.py\n?? scripts/paper_model_comparison_legacy.py\n?? scripts/posterior_draw_sensitivity.py\n?? src/\n?? tests/",
+  "python": {
+    "executable": "se-intensity-modeling-model-fix\\.venv\\Scripts\\python.exe",
+    "version": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "software_versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1"
+  },
+  "arguments": {
+    "summary": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\combined_bayesian_summary.csv",
+    "posterior_dir": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission",
+    "long_ioniz": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt",
+    "sweep_dir": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series",
+    "output_dir": null,
+    "n_starts": null,
+    "baseline_verification_starts": null,
+    "seed": 20260730,
+    "finite_step_nm": null,
+    "dpi": 400,
+    "quick": false
+  },
+  "resolved": {
+    "summary": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\combined_bayesian_summary.csv",
+    "posterior_dir": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission",
+    "long_ioniz": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt",
+    "sweep_dir": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series",
+    "output_dir": "se-intensity-modeling-model-fix\\outputs\\model_sensitivity",
+    "n_starts": 12,
+    "baseline_verification_starts": 100,
+    "finite_step_nm": 0.05,
+    "finite_reference_step_nm": 0.025
+  },
+  "normalization_quality": {
+    "available": true,
+    "passed": true,
+    "failures": [],
+    "quality_path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\sampling_quality.json",
+    "quality_sha256": "fcb27366ce6355ca3cebc37ac1f4b6d461858ae85dd469413d271201fb9ce814",
+    "metadata_path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\joint_normalization_metadata.json",
+    "metadata_sha256": "4aa528cf4efcd4c65348f5e585a86857c10935b83b20411f99cb61c17b8984fe",
+    "manifest_path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\artifact_manifest.json",
+    "manifest_sha256": "79084545472f936528adb24db5309c105680bbce29a81e30f2b882560a11c8a6",
+    "joint_path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\joint_normalization_posterior.npz",
+    "joint_sha256": "0e031d0f2d5754f370e13d221998917349ac76ccfd8761a09388e3638ec010fb",
+    "quality": {
+      "schema_version": 1,
+      "requirements": {
+        "divergences": 0,
+        "maximum_r_hat_exclusive": 1.01,
+        "minimum_ess_bulk": 1000,
+        "minimum_ess_tail": 1000
+      },
+      "datasets": [
+        {
+          "dataset": "Dataset 1",
+          "divergences": 0,
+          "maximum_r_hat": 1.0,
+          "minimum_ess_bulk": 5964.0,
+          "minimum_ess_tail": 4316.0
+        },
+        {
+          "dataset": "Dataset 2",
+          "divergences": 0,
+          "maximum_r_hat": 1.0,
+          "minimum_ess_bulk": 4893.0,
+          "minimum_ess_tail": 3785.0
+        },
+        {
+          "dataset": "Dataset 3",
+          "divergences": 0,
+          "maximum_r_hat": 1.0,
+          "minimum_ess_bulk": 1969.0,
+          "minimum_ess_tail": 1231.0
+        }
+      ]
+    },
+    "metadata": {
+      "schema_version": 1,
+      "description": "Posterior means and block-diagonal covariance of normalized transmission intensities. Within-flake covariance comes from shared-carbon posterior ratio draws; cross-flake covariance is zero.",
+      "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "packages": {
+        "arviz": "0.23.4",
+        "numpy": "2.4.6",
+        "pandas": "3.0.5",
+        "pymc": "5.28.5",
+        "pytensor": "2.38.3",
+        "xarray": "2026.7.0"
+      },
+      "sampling": {
+        "draws": 2000,
+        "tune": 1500,
+        "chains": 4,
+        "cores": 4,
+        "target_accept": 0.97,
+        "random_seed": 42
+      },
+      "rows": 15,
+      "minimum_covariance_eigenvalue": 1.120236611276079e-05,
+      "maximum_covariance_eigenvalue": 0.0044180179950863005,
+      "covariance_condition_number": 394.38257512880847
+    },
+    "manifest": {
+      "schema_version": 1,
+      "purpose": "Content binding for Bayesian-normalization outputs. The manifest excludes itself.",
+      "artifacts": [
+        {
+          "path": "combined_bayesian_summary.csv",
+          "bytes": 7065,
+          "sha256": "e0ea9c6216edc415352934d928b8a18f482ad38b1c2d7e70debf12cd19ea401c"
+        },
+        {
+          "path": "flake_1_location_4_diagnostics.csv",
+          "bytes": 1204,
+          "sha256": "f780472049bea1c46215703113db54c3ae497b308d08aa5e72eb33c5d85c984c"
+        },
+        {
+          "path": "flake_1_location_4_posterior_ratio_samples.npz",
+          "bytes": 357891,
+          "sha256": "45d2d04ea25f652430175389b3735e8f98ec45dc7d1a21b7bfcd3643b405d0ae"
+        },
+        {
+          "path": "flake_1_location_4_summary.csv",
+          "bytes": 3155,
+          "sha256": "535b984b2b8c9aadeeb850056bee63fc4903e3cf4681ef03c56152e8c43170a4"
+        },
+        {
+          "path": "flake_1_location_4_trace.nc",
+          "bytes": 1542371,
+          "sha256": "619891e583717751968a4240aff49a51698cc11887d32f346c3b0d7232e6573e"
+        },
+        {
+          "path": "flake_2_location_12_diagnostics.csv",
+          "bytes": 1074,
+          "sha256": "38209513e518228464e81ecc1555ec9c30002ad31b2bb67a9865f1fcb2a57a1a"
+        },
+        {
+          "path": "flake_2_location_12_posterior_ratio_samples.npz",
+          "bytes": 300013,
+          "sha256": "a4508249f2bac99b6cf5c068fdd32b6eb41798c0557baee5a4803b0f915501ca"
+        },
+        {
+          "path": "flake_2_location_12_summary.csv",
+          "bytes": 2704,
+          "sha256": "eafcafc8c1b454b26c5b208a7679f47a671ebff0a0dc64049a061eec87288434"
+        },
+        {
+          "path": "flake_2_location_12_trace.nc",
+          "bytes": 1442145,
+          "sha256": "a54ac33d11568c6063b1ad970cb9e90c7ca7a535c03a54b40935af389f897199"
+        },
+        {
+          "path": "flake_3_location_13_diagnostics.csv",
+          "bytes": 940,
+          "sha256": "40cc11377d50ec14894f96372eb38ca003ce5846f257406a6121e4e098981e8d"
+        },
+        {
+          "path": "flake_3_location_13_posterior_ratio_samples.npz",
+          "bytes": 235949,
+          "sha256": "c6cb85ec0c3f3225287388fd87f5dc7a9b5035d0f2ce089b742d0830f5c5fbb3"
+        },
+        {
+          "path": "flake_3_location_13_summary.csv",
+          "bytes": 2252,
+          "sha256": "fa98b30a82bf02982a1e554cf84b5f5ae3f0cf27d6c988bc7be6cee9d96899af"
+        },
+        {
+          "path": "flake_3_location_13_trace.nc",
+          "bytes": 1303337,
+          "sha256": "35e5f0508f31d438b229ed2d66e34c4bc30d2d0e7c45acccc468ee5e59d3a3c5"
+        },
+        {
+          "path": "joint_normalization_correlation.csv",
+          "bytes": 2568,
+          "sha256": "cd7059b0da0d9b5c17e76b96a1d52558425cc4eb15b0d7c6a07e92aacfd692f7"
+        },
+        {
+          "path": "joint_normalization_covariance.csv",
+          "bytes": 2912,
+          "sha256": "dfa8cd04276d85721ee82a3c03e68c0b6fbde699ee6d5ffb1ba4b60bd580cb83"
+        },
+        {
+          "path": "joint_normalization_metadata.json",
+          "bytes": 871,
+          "sha256": "4aa528cf4efcd4c65348f5e585a86857c10935b83b20411f99cb61c17b8984fe"
+        },
+        {
+          "path": "joint_normalization_posterior.npz",
+          "bytes": 4483,
+          "sha256": "0e031d0f2d5754f370e13d221998917349ac76ccfd8761a09388e3638ec010fb"
+        },
+        {
+          "path": "joint_normalization_rows.csv",
+          "bytes": 1419,
+          "sha256": "9d6c2ad54c26dbc762f58e74bbfda415883db066a370a1d540ec4fdc1ffe23cd"
+        },
+        {
+          "path": "run_provenance.json",
+          "bytes": 1990,
+          "sha256": "434fec9c7daaf0c3f4b1ce581aec06334ace6988c32eda3cbc2d3059b4c24617"
+        },
+        {
+          "path": "sampling_quality.json",
+          "bytes": 707,
+          "sha256": "fcb27366ce6355ca3cebc37ac1f4b6d461858ae85dd469413d271201fb9ce814"
+        }
+      ]
+    }
+  },
+  "input_files": [
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "6c3604504ebf9c2190e15b8914e674701503d675b0501bc8b51f73973e8cb26e"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\100nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "d77ea5c6db0856add6b3c26d539311ba1afa24b6fd4416db915e57dcdc877f3c"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\10nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "cc6598ac7e6020e2ecd1633ec0b5649a09ebc798daa9a03f7295b470c37b7183"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\150nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "0f5a56422bb121553c071f1a4e54c0239321c4074e075bfafa33764b690a142b"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\200nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "21c8fc7b071b3517a7b540cffbc76fea914f52fcd12007759d62efaeb9739a01"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\20nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "cf18f1a298fe4fc4c4657be83637f2137eeeabcd3ab80355b8402a70daf67838"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\30nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "7ec0ee6fe37a0fccb59e7cf33348d917409cc39d450f88b57af3e2d42eca5b7e"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\40nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "4459d0b29c31dcde1d2fb6d1bf905faa3f3af18f28a941df6981b6048bff173a"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\50nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "9a1ed963133c4b23e2c839de272dade554740d52ac7e3c0ee864a544955e855d"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series\\70nm\\IONIZ.txt",
+      "bytes": 4861,
+      "sha256": "f1fdc020438000c38122b5baef797fbcbe6defe01c977cda885b1cbdc6b9dc7a"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\artifact_manifest.json",
+      "bytes": 5619,
+      "sha256": "79084545472f936528adb24db5309c105680bbce29a81e30f2b882560a11c8a6"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\combined_bayesian_summary.csv",
+      "bytes": 7065,
+      "sha256": "e0ea9c6216edc415352934d928b8a18f482ad38b1c2d7e70debf12cd19ea401c"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\flake_1_location_4_posterior_ratio_samples.npz",
+      "bytes": 357891,
+      "sha256": "45d2d04ea25f652430175389b3735e8f98ec45dc7d1a21b7bfcd3643b405d0ae"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\flake_2_location_12_posterior_ratio_samples.npz",
+      "bytes": 300013,
+      "sha256": "a4508249f2bac99b6cf5c068fdd32b6eb41798c0557baee5a4803b0f915501ca"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\flake_3_location_13_posterior_ratio_samples.npz",
+      "bytes": 235949,
+      "sha256": "c6cb85ec0c3f3225287388fd87f5dc7a9b5035d0f2ce089b742d0830f5c5fbb3"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\joint_normalization_metadata.json",
+      "bytes": 871,
+      "sha256": "4aa528cf4efcd4c65348f5e585a86857c10935b83b20411f99cb61c17b8984fe"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\joint_normalization_posterior.npz",
+      "bytes": 4483,
+      "sha256": "0e031d0f2d5754f370e13d221998917349ac76ccfd8761a09388e3638ec010fb"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\run_provenance.json",
+      "bytes": 1990,
+      "sha256": "434fec9c7daaf0c3f4b1ce581aec06334ace6988c32eda3cbc2d3059b4c24617"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\data\\reference_posteriors\\transmission\\sampling_quality.json",
+      "bytes": 707,
+      "sha256": "fcb27366ce6355ca3cebc37ac1f4b6d461858ae85dd469413d271201fb9ce814"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\pyproject.toml",
+      "bytes": 822,
+      "sha256": "ca560445823f06fd3d0cc14a05cab82cf857628ce23f36282df5c10142783a23"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\requirements-lock.txt",
+      "bytes": 858,
+      "sha256": "060a8b3f8a4d617675659c1d251c42c203d1173f805cc09a2760154187b46603"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\scripts\\model_sensitivity.py",
+      "bytes": 81884,
+      "sha256": "9e7b01ce241abb24c547eee3dc19c543b9ec20884603512b135f3eecf8b64852"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\__init__.py",
+      "bytes": 823,
+      "sha256": "9ac8c42e80a3283278977710cc136aad7e172fd45138e122430189b3fa0a2d3e"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\data.py",
+      "bytes": 14919,
+      "sha256": "40b365c22fa12de76223c2759402299794ed8accfc1f9416253543a5afb390cd"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\deposition.py",
+      "bytes": 6960,
+      "sha256": "12c235d77aa0d60928c803653266e23a19e67c1e3dd83315a9e8a3ee5ad30d4c"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\finite.py",
+      "bytes": 28544,
+      "sha256": "bf857e80cd47eb6991c31afb402c761885a8d1250d4803e21dbc2e5b238b5e7f"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\fit.py",
+      "bytes": 35076,
+      "sha256": "334f7efc1858420d527d6d1758789bd78c62ff22392f2b51afea5ff7f10922ef"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\interpolation.py",
+      "bytes": 4331,
+      "sha256": "6a785e5f190020b29521388cd68ced5fc740bbd8bb826db8c4436ea7d25a9a5f"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\likelihood.py",
+      "bytes": 9454,
+      "sha256": "5ce2618a8f347041df53ba7b2118407de47607b054673df36e99ac11ed7e57e1"
+    },
+    {
+      "path": "se-intensity-modeling-model-fix\\src\\se_model\\models.py",
+      "bytes": 7622,
+      "sha256": "a157ff771689412d6f5cefb1c488003795a73fb9c39d725e58b83b43f84247ea"
+    }
+  ],
+  "base_observation_covariance": {
+    "shape": [
+      15,
+      15
+    ],
+    "datasets": [
+      "Dataset 1",
+      "Dataset 2",
+      "Dataset 3"
+    ],
+    "off_diagonal_elements": 62
+  },
+  "sources": {
+    "S0": {
+      "label": "Long target, ions",
+      "include_recoils": false,
+      "long_ioniz_path": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt"
+    },
+    "S1": {
+      "label": "Finite thickness, ions",
+      "include_recoils": false,
+      "long_ioniz_path": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt",
+      "sweep_directory": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series",
+      "raw_thickness_bounds_nm": [
+        10.0,
+        300.00100000000003
+      ],
+      "expected_sweep_thicknesses_nm": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        70.0,
+        100.0,
+        150.0,
+        200.0
+      ],
+      "artifact_ratio_floor": 0.8,
+      "selected_kernel": "exponential_z_lambda",
+      "selected_parameter_names": [
+        "A0",
+        "A1_per_nm",
+        "A2_per_nm2",
+        "lambda_0_nm",
+        "kappa_per_nm"
+      ],
+      "selected_parameters": [
+        0.039189146302464554,
+        0.0012368224095405953,
+        -1.7840306894702386e-06,
+        38.954523233957104,
+        -0.006466235035121558
+      ],
+      "selected_chi2": 3661.4796130979958,
+      "selected_aic": 3671.4796130979958,
+      "selected_observation_count": 890,
+      "selected_degrees_of_freedom": 885,
+      "selected_reduced_chi2": 4.137265099545758,
+      "kernel_candidates": [
+        {
+          "name": "exponential",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_nm"
+          ],
+          "parameters": [
+            0.0438328896428289,
+            0.0013289968352560675,
+            -4.341189260033272e-06,
+            24.926167880583424
+          ],
+          "chi2": 10081.770147187644,
+          "parameter_count": 4,
+          "aic": 10089.770147187644,
+          "success": true,
+          "at_bound": [],
+          "observation_count": 890,
+          "degrees_of_freedom": 886,
+          "reduced_chi2": 11.378973078089892,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 2
+        },
+        {
+          "name": "power",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_nm",
+            "power"
+          ],
+          "parameters": [
+            0.044440843405854406,
+            0.0013390117682025523,
+            -4.2954331278276e-06,
+            232.0207344145929,
+            9.999999999999945
+          ],
+          "chi2": 10268.81377821217,
+          "parameter_count": 5,
+          "aic": 10278.81377821217,
+          "success": true,
+          "at_bound": [
+            "power"
+          ],
+          "observation_count": 890,
+          "degrees_of_freedom": 885,
+          "reduced_chi2": 11.603179410409233,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 9
+        },
+        {
+          "name": "double_exponential",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_1_nm",
+            "lambda_2_nm",
+            "weight"
+          ],
+          "parameters": [
+            0.050003660164308364,
+            0.0015119799412805146,
+            -4.785720257829457e-06,
+            22.96456267078337,
+            999.9999999999943,
+            0.1677399510090475
+          ],
+          "chi2": 9922.604564395617,
+          "parameter_count": 6,
+          "aic": 9934.604564395617,
+          "success": true,
+          "at_bound": [
+            "lambda_2_nm"
+          ],
+          "observation_count": 890,
+          "degrees_of_freedom": 884,
+          "reduced_chi2": 11.22466579682762,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 14
+        },
+        {
+          "name": "exponential_z_lambda",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_0_nm",
+            "kappa_per_nm"
+          ],
+          "parameters": [
+            0.039189146302464554,
+            0.0012368224095405953,
+            -1.7840306894702386e-06,
+            38.954523233957104,
+            -0.006466235035121558
+          ],
+          "chi2": 3661.4796130979958,
+          "parameter_count": 5,
+          "aic": 3671.4796130979958,
+          "success": true,
+          "at_bound": [],
+          "observation_count": 890,
+          "degrees_of_freedom": 885,
+          "reduced_chi2": 4.137265099545758,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 2
+        }
+      ],
+      "sweep_run_diagnostics": [
+        {
+          "thickness_nm": 10.0,
+          "retained_bins": 98,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 1,
+          "ratio_noise": 0.0014611960980103267
+        },
+        {
+          "thickness_nm": 20.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0022000113767280836
+        },
+        {
+          "thickness_nm": 30.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0018247766786392522
+        },
+        {
+          "thickness_nm": 40.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0023522390392706934
+        },
+        {
+          "thickness_nm": 50.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0022029830026840265
+        },
+        {
+          "thickness_nm": 70.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0018924560472973165
+        },
+        {
+          "thickness_nm": 100.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0017410824262953455
+        },
+        {
+          "thickness_nm": 150.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0016756338071900678
+        },
+        {
+          "thickness_nm": 200.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0022005498514188733
+        }
+      ],
+      "integration_step_nm": 0.05,
+      "integration_cells": 6001,
+      "minimum_cells": 64,
+      "maximum_cells": 16384
+    },
+    "S2": {
+      "label": "Long target, ions + recoils",
+      "include_recoils": true,
+      "long_ioniz_path": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt"
+    },
+    "S3": {
+      "label": "Finite thickness, ions + recoils",
+      "include_recoils": true,
+      "long_ioniz_path": "se-intensity-modeling-model-fix\\data\\SRIM 30 keV - Monolayer Long\\IONIZ.txt",
+      "sweep_directory": "se-intensity-modeling-model-fix\\data\\SRIM-Thickness-Series",
+      "raw_thickness_bounds_nm": [
+        10.0,
+        300.00100000000003
+      ],
+      "expected_sweep_thicknesses_nm": [
+        10.0,
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        70.0,
+        100.0,
+        150.0,
+        200.0
+      ],
+      "artifact_ratio_floor": 0.8,
+      "selected_kernel": "exponential_z_lambda",
+      "selected_parameter_names": [
+        "A0",
+        "A1_per_nm",
+        "A2_per_nm2",
+        "lambda_0_nm",
+        "kappa_per_nm"
+      ],
+      "selected_parameters": [
+        0.04100253496123916,
+        0.0013082386196425775,
+        -2.0819609921162532e-06,
+        38.28833619821083,
+        -0.006339261265065893
+      ],
+      "selected_chi2": 3539.0411535586763,
+      "selected_aic": 3549.0411535586763,
+      "selected_observation_count": 890,
+      "selected_degrees_of_freedom": 885,
+      "selected_reduced_chi2": 3.99891655769342,
+      "kernel_candidates": [
+        {
+          "name": "exponential",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_nm"
+          ],
+          "parameters": [
+            0.04701141795548721,
+            0.0013759060191479388,
+            -4.542258779022474e-06,
+            24.532168662412506
+          ],
+          "chi2": 10246.864733352355,
+          "parameter_count": 4,
+          "aic": 10254.864733352355,
+          "success": true,
+          "at_bound": [],
+          "observation_count": 890,
+          "degrees_of_freedom": 886,
+          "reduced_chi2": 11.565310082790468,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 7
+        },
+        {
+          "name": "power",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_nm",
+            "power"
+          ],
+          "parameters": [
+            0.047748027596966267,
+            0.0013865092519091057,
+            -4.4971663772759974e-06,
+            227.8673788327657,
+            9.999999999999947
+          ],
+          "chi2": 10400.832868379313,
+          "parameter_count": 5,
+          "aic": 10410.832868379313,
+          "success": true,
+          "at_bound": [
+            "power"
+          ],
+          "observation_count": 890,
+          "degrees_of_freedom": 885,
+          "reduced_chi2": 11.752353523592445,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 11
+        },
+        {
+          "name": "double_exponential",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_1_nm",
+            "lambda_2_nm",
+            "weight"
+          ],
+          "parameters": [
+            0.05385033259214859,
+            0.0015712629754141268,
+            -5.021843472591851e-06,
+            22.49705573589732,
+            999.9999999999976,
+            0.1726327247889342
+          ],
+          "chi2": 10050.999976264948,
+          "parameter_count": 6,
+          "aic": 10062.999976264948,
+          "success": true,
+          "at_bound": [
+            "lambda_2_nm"
+          ],
+          "observation_count": 890,
+          "degrees_of_freedom": 884,
+          "reduced_chi2": 11.369909475412836,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 12
+        },
+        {
+          "name": "exponential_z_lambda",
+          "parameter_names": [
+            "A0",
+            "A1_per_nm",
+            "A2_per_nm2",
+            "lambda_0_nm",
+            "kappa_per_nm"
+          ],
+          "parameters": [
+            0.04100253496123916,
+            0.0013082386196425775,
+            -2.0819609921162532e-06,
+            38.28833619821083,
+            -0.006339261265065893
+          ],
+          "chi2": 3539.0411535586763,
+          "parameter_count": 5,
+          "aic": 3549.0411535586763,
+          "success": true,
+          "at_bound": [],
+          "observation_count": 890,
+          "degrees_of_freedom": 885,
+          "reduced_chi2": 3.99891655769342,
+          "attempted_starts": 16,
+          "successful_starts": 16,
+          "near_best_starts": 16,
+          "best_start_index": 4
+        }
+      ],
+      "sweep_run_diagnostics": [
+        {
+          "thickness_nm": 10.0,
+          "retained_bins": 98,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 1,
+          "ratio_noise": 0.0019380737435826176
+        },
+        {
+          "thickness_nm": 20.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0021548788144511244
+        },
+        {
+          "thickness_nm": 30.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0018264932324960643
+        },
+        {
+          "thickness_nm": 40.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0024336185974476515
+        },
+        {
+          "thickness_nm": 50.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0021829683507693675
+        },
+        {
+          "thickness_nm": 70.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.0018561825247067106
+        },
+        {
+          "thickness_nm": 100.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.001731833823703267
+        },
+        {
+          "thickness_nm": 150.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.001681193418213816
+        },
+        {
+          "thickness_nm": 200.0,
+          "retained_bins": 99,
+          "dropped_final_bins": 1,
+          "dropped_extra_artifact_bins": 0,
+          "ratio_noise": 0.002119121709025261
+        }
+      ],
+      "integration_step_nm": 0.05,
+      "integration_cells": 6001,
+      "minimum_cells": 64,
+      "maximum_cells": 16384
+    },
+    "I1": {
+      "label": "Long target, PCHIP interpolation, zero tail",
+      "interpolation": "pchip",
+      "tail_policy": "zero",
+      "step_nm": 0.1,
+      "original_maximum_depth_nm": 300.00100000000003,
+      "resampled_maximum_depth_nm": 300.00100000000003,
+      "clipped_negative_values": 0,
+      "minimum_unclipped_value": 0.27789600000000003
+    },
+    "I2": {
+      "label": "Legacy cubic interpolation and endpoint clamp",
+      "interpolation": "cubic",
+      "tail_policy": "endpoint",
+      "step_nm": 0.1,
+      "original_maximum_depth_nm": 300.00100000000003,
+      "resampled_maximum_depth_nm": 2000.0,
+      "clipped_negative_values": 0,
+      "minimum_unclipped_value": 0.27789600000000003
+    }
+  },
+  "campaign": {
+    "planned_fits": 56,
+    "successful_fits": 56,
+    "diagnostically_valid_fits": 43,
+    "diagnostic_limit_fits": 13,
+    "integrity_invalid_fits": 0,
+    "failed_fits": 0,
+    "integrity_issue_count": 15,
+    "outcome": "success_with_warnings",
+    "finite_grid_convergence": [
+      {
+        "case_id": "S1__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S1",
+        "model_key": "symmetric_fixed",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 5.359194516885157e-06,
+        "rms_prediction_difference": 4.205465360292216e-07,
+        "maximum_difference_relative_to_peak": 3.991101449206575e-06,
+        "passed": true
+      },
+      {
+        "case_id": "S1__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S1",
+        "model_key": "symmetric_free",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 1.7105298844577455e-06,
+        "rms_prediction_difference": 2.496324239961636e-07,
+        "maximum_difference_relative_to_peak": 1.278567505005437e-06,
+        "passed": true
+      },
+      {
+        "case_id": "S1__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S1",
+        "model_key": "asymmetric",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 1.8742040799879511e-06,
+        "rms_prediction_difference": 2.6019872948439814e-07,
+        "maximum_difference_relative_to_peak": 1.398708557907485e-06,
+        "passed": true
+      },
+      {
+        "case_id": "S3__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S3",
+        "model_key": "symmetric_fixed",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 9.459551915447229e-06,
+        "rms_prediction_difference": 7.439362771556575e-07,
+        "maximum_difference_relative_to_peak": 7.0591888633741735e-06,
+        "passed": true
+      },
+      {
+        "case_id": "S3__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S3",
+        "model_key": "symmetric_free",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 1.8036182733993655e-06,
+        "rms_prediction_difference": 2.7578778024166554e-07,
+        "maximum_difference_relative_to_peak": 1.347672999585584e-06,
+        "passed": true
+      },
+      {
+        "case_id": "S3__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "source_key": "S3",
+        "model_key": "asymmetric",
+        "production_step_nm": 0.05,
+        "reference_step_nm": 0.025,
+        "evaluation_points": 261,
+        "maximum_absolute_prediction_difference": 1.5296700238143224e-06,
+        "rms_prediction_difference": 2.4463917556645373e-07,
+        "maximum_difference_relative_to_peak": 1.1416331223197364e-06,
+        "passed": true
+      }
+    ],
+    "working_likelihood_profile_intervals": [
+      {
+        "case_id": "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "model_key": "symmetric_free",
+        "parameter": "lambda_shared_nm",
+        "optimum": 8.53015007587254,
+        "working_likelihood_interval_68_lower": 7.714681851535238,
+        "working_likelihood_interval_68_upper": 9.610801286243005,
+        "working_likelihood_interval_95_lower": 6.94798725670149,
+        "working_likelihood_interval_95_upper": 10.70400975916969,
+        "interpretation": "Conditional profile interval under the Gaussian EIV working likelihood; excludes source and calibration systematics."
+      },
+      {
+        "case_id": "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+        "model_key": "asymmetric",
+        "parameter": "lambda_back_nm",
+        "optimum": 10.011102534592485,
+        "working_likelihood_interval_68_lower": 8.888193812021436,
+        "working_likelihood_interval_68_upper": 11.380436768231895,
+        "working_likelihood_interval_95_lower": 7.864161550464834,
+        "working_likelihood_interval_95_upper": 12.900253765462244,
+        "interpretation": "Conditional profile interval under the Gaussian EIV working likelihood; excludes source and calibration systematics."
+      }
+    ],
+    "likelihood": "parameter-dependent full Gaussian EIV with covariance log-determinant",
+    "interpretation": "Descriptive statistical sensitivity only; no microscopic mechanism-selection claim."
+  }
+}

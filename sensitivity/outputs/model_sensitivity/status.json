@@ -1,0 +1,136 @@
+{
+  "schema_version": 2,
+  "analysis_quality": "production",
+  "success": true,
+  "outcome": "success_with_warnings",
+  "planned_fits": 56,
+  "completed_fits": 56,
+  "diagnostically_valid_fits": 43,
+  "diagnostic_limit_fits": 13,
+  "integrity_invalid_fits": 0,
+  "failed_fits": 0,
+  "integrity_errors": 0,
+  "integrity_warnings": 15,
+  "normalization_quality_passed": true,
+  "failures": [],
+  "integrity_issues": [
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_free__full__g1.000__p0.000__lf2.000__s-free__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_shared_nm',); Hessian is not positive definite; Hessian rank 0 != 4 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__asymmetric__full__g1.000__p0.000__lf2.000__s-free__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_back_nm',); Hessian is not positive definite; Hessian rank 0 != 4 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-0.900__exclude-none"
+      ],
+      "message": "parameters at bounds: ('C_b',); Hessian is not positive definite; Hessian rank 0 != 2 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-0.900__exclude-none"
+      ],
+      "message": "Hessian is not positive definite."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-0.900__exclude-none"
+      ],
+      "message": "Hessian is not positive definite."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-1.000__exclude-none"
+      ],
+      "message": "Hessian is not positive definite."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-1.000__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_shared_nm',); Hessian is not positive definite; Hessian rank 0 != 3 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-1.000__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_back_nm',); Hessian is not positive definite; Hessian rank 0 != 3 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_fixed__full__g1.000__p0.100__lf2.000__s-1.100__exclude-none"
+      ],
+      "message": "parameters at bounds: ('C_b',); Hessian is not positive definite; Hessian rank 0 != 2 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-1.100__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_shared_nm',); Hessian is not positive definite; Hessian rank 0 != 3 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-1.100__exclude-none"
+      ],
+      "message": "parameters at bounds: ('lambda_back_nm',); Hessian is not positive definite; Hessian rank 0 != 3 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-Dataset_3"
+      ],
+      "message": "parameters at bounds: ('lambda_shared_nm',); Hessian is not positive definite; Hessian rank 0 != 4 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "fit_diagnostics_invalid",
+      "case_ids": [
+        "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-Dataset_3"
+      ],
+      "message": "parameters at bounds: ('lambda_back_nm',); Hessian is not positive definite; Hessian rank 0 != 4 free parameters."
+    },
+    {
+      "severity": "warning",
+      "code": "finite_source_approximation",
+      "case_ids": [],
+      "source_key": "S1",
+      "message": "S1 finite/long correction has chi-square/dof=4.137; use it only as an approximate source sensitivity and do not interpret its local fit errors as complete uncertainty."
+    },
+    {
+      "severity": "warning",
+      "code": "finite_source_approximation",
+      "case_ids": [],
+      "source_key": "S3",
+      "message": "S3 finite/long correction has chi-square/dof=3.999; use it only as an approximate source sensitivity and do not interpret its local fit errors as complete uncertainty."
+    }
+  ]
+}

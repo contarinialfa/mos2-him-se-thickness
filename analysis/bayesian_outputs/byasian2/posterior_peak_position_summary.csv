@@ -1,0 +1,2 @@
+peak_t_median_nm,peak_t_ci16_nm,peak_t_ci84_nm,peak_t_ci2p5_nm,peak_t_ci97p5_nm,most_probable_peak_thickness_nm,most_probable_peak_probability,n_mc,parabolic_peak_t_median_nm,parabolic_peak_t_ci16_nm,parabolic_peak_t_ci84_nm,parabolic_peak_t_ci2p5_nm,parabolic_peak_t_ci97p5_nm
+40.6,40.6,54.1,35.6,54.1,40.6,0.5097,100000,46.70599382992444,45.169051677253684,49.4261985650229,36.87765497208975,50.991312766272465

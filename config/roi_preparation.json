@@ -1,0 +1,228 @@
+{
+  "transmission": [
+    {
+      "name": "Flake 1 (location 4)",
+      "output": "transmission/flake_1_roi_intensity.csv",
+      "reference": "data/roi_measurements/transmission/flake_1_roi_intensity.csv",
+      "parts": [
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "new_group_id": 1,
+          "thickness_nm": 140.7
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [21, 22, 23, 24, 25, 26, 27],
+          "new_group_id": 2,
+          "thickness_nm": 160.0
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [32, 33, 34, 35],
+          "new_group_id": 3,
+          "thickness_nm": 185.7
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [39, 40, 41, 42],
+          "new_group_id": 4,
+          "thickness_nm": 95.0
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [47],
+          "new_group_id": 5,
+          "thickness_nm": 212.0
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_mos2_rois.csv",
+          "region_ids": [48],
+          "new_group_id": 6,
+          "thickness_nm": 33.0
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_1_carbon_rois.csv",
+          "source_group_id": 1,
+          "new_group_id": 7,
+          "thickness_nm": null
+        }
+      ]
+    },
+    {
+      "name": "Flake 2 (location 12)",
+      "output": "transmission/flake_2_roi_intensity.csv",
+      "reference": "data/roi_measurements/transmission/flake_2_roi_intensity.csv",
+      "parts": [
+        {
+          "input": "data/roi_exports/transmission/flake_2_mos2_rois.csv",
+          "region_ids": [1, 2, 3, 4, 5],
+          "new_group_id": 1,
+          "thickness_nm": 65.0
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_2_mos2_rois.csv",
+          "region_ids": [8, 9, 10, 11, 12],
+          "new_group_id": 2,
+          "thickness_nm": 92.5
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_2_mos2_rois.csv",
+          "region_ids": [15, 16, 17, 18],
+          "new_group_id": 3,
+          "thickness_nm": 150.7
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_2_mos2_rois.csv",
+          "region_ids": [23, 24],
+          "new_group_id": 4,
+          "thickness_nm": 191.2
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_2_mos2_rois.csv",
+          "region_ids": [27],
+          "new_group_id": 5,
+          "thickness_nm": 40.6
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_2_carbon_rois.csv",
+          "source_group_id": 1,
+          "new_group_id": 6,
+          "thickness_nm": null
+        }
+      ]
+    },
+    {
+      "name": "Flake 3 (location 13)",
+      "output": "transmission/flake_3_roi_intensity.csv",
+      "reference": "data/roi_measurements/transmission/flake_3_roi_intensity.csv",
+      "parts": [
+        {
+          "input": "data/roi_exports/transmission/flake_3_all_rois.csv",
+          "source_group_id": 1,
+          "new_group_id": 1,
+          "thickness_nm": 14.1
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_3_all_rois.csv",
+          "source_group_id": 2,
+          "new_group_id": 2,
+          "thickness_nm": 23.4
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_3_all_rois.csv",
+          "source_group_id": 3,
+          "new_group_id": 3,
+          "thickness_nm": 35.6
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_3_all_rois.csv",
+          "source_group_id": 4,
+          "new_group_id": 4,
+          "thickness_nm": 54.1
+        },
+        {
+          "input": "data/roi_exports/transmission/flake_3_all_rois.csv",
+          "source_group_id": 5,
+          "new_group_id": 5,
+          "thickness_nm": null
+        }
+      ]
+    }
+  ],
+  "backside_blocked": [
+    {
+      "name": "Backside-blocked flake 1 (location 4)",
+      "output": "backside_blocked/flake_1_roi_intensity.csv",
+      "reference": "data/roi_measurements/backside_blocked/flake_1_roi_intensity.csv",
+      "parts": [
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 1,
+          "new_group_id": 1,
+          "thickness_nm": 140.7
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 2,
+          "new_group_id": 2,
+          "thickness_nm": 160.0
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 3,
+          "new_group_id": 3,
+          "thickness_nm": 185.7
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 4,
+          "new_group_id": 4,
+          "thickness_nm": 95.0
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 6,
+          "new_group_id": 5,
+          "thickness_nm": 212.0
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 7,
+          "new_group_id": 6,
+          "thickness_nm": 33.0
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_1_all_rois.csv",
+          "source_group_id": 8,
+          "new_group_id": 7,
+          "thickness_nm": null
+        }
+      ]
+    },
+    {
+      "name": "Backside-blocked flake 2 (location 12)",
+      "output": "backside_blocked/flake_2_roi_intensity.csv",
+      "reference": "data/roi_measurements/backside_blocked/flake_2_roi_intensity.csv",
+      "parts": [
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 1,
+          "new_group_id": 1,
+          "thickness_nm": 65.0
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 2,
+          "new_group_id": 2,
+          "thickness_nm": 92.5
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 3,
+          "new_group_id": 3,
+          "thickness_nm": 150.7
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 4,
+          "new_group_id": 4,
+          "thickness_nm": 191.2
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 5,
+          "new_group_id": 5,
+          "thickness_nm": 40.6
+        },
+        {
+          "input": "data/roi_exports/backside_blocked/flake_2_all_rois.csv",
+          "source_group_id": 6,
+          "new_group_id": 6,
+          "thickness_nm": null
+        }
+      ]
+    }
+  ]
+}
+

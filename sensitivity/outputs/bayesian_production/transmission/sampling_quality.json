@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "requirements": {
+    "divergences": 0,
+    "maximum_r_hat_exclusive": 1.01,
+    "minimum_ess_bulk": 1000,
+    "minimum_ess_tail": 1000
+  },
+  "datasets": [
+    {
+      "dataset": "Dataset 1",
+      "divergences": 0,
+      "maximum_r_hat": 1.0,
+      "minimum_ess_bulk": 5964.0,
+      "minimum_ess_tail": 4316.0
+    },
+    {
+      "dataset": "Dataset 2",
+      "divergences": 0,
+      "maximum_r_hat": 1.0,
+      "minimum_ess_bulk": 4893.0,
+      "minimum_ess_tail": 3785.0
+    },
+    {
+      "dataset": "Dataset 3",
+      "divergences": 0,
+      "maximum_r_hat": 1.0,
+      "minimum_ess_bulk": 1969.0,
+      "minimum_ess_tail": 1231.0
+    }
+  ]
+}

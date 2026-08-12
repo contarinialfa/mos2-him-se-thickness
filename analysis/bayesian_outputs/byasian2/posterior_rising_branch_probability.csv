@@ -1,0 +1,3 @@
+test,p_peak_gt_thinnest,p_report_text,thin_thickness_nm,peak_thickness_nm,thin_median_R,peak_median_R,n_mc
+pooled_transmission_peak_gt_thinnest,0.99699,0.99699,14.1,40.6,1.1706864800728065,1.3846125946628072,100000
+flake3_only_peak_gt_thinnest,0.99925,0.99925,14.1,54.1,1.1708800681566471,1.3813032870385646,4000

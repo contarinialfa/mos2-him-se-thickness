@@ -1,0 +1,8 @@
+arviz>=0.17
+matplotlib>=3.8
+numpy>=1.26
+pandas>=2.1
+pillow>=10.0
+pymc>=5.16,<6
+scikit-image>=0.22
+scipy>=1.11

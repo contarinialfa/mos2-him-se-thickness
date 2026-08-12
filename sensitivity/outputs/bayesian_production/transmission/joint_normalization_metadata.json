@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "description": "Posterior means and block-diagonal covariance of normalized transmission intensities. Within-flake covariance comes from shared-carbon posterior ratio draws; cross-flake covariance is zero.",
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "arviz": "0.23.4",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "pymc": "5.28.5",
+    "pytensor": "2.38.3",
+    "xarray": "2026.7.0"
+  },
+  "sampling": {
+    "draws": 2000,
+    "tune": 1500,
+    "chains": 4,
+    "cores": 4,
+    "target_accept": 0.97,
+    "random_seed": 42
+  },
+  "rows": 15,
+  "minimum_covariance_eigenvalue": 1.120236611276079e-05,
+  "maximum_covariance_eigenvalue": 0.0044180179950863005,
+  "covariance_condition_number": 394.38257512880847
+}

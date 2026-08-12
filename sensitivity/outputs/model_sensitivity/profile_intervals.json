@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "S0__symmetric_free__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+    "model_key": "symmetric_free",
+    "parameter": "lambda_shared_nm",
+    "optimum": 8.53015007587254,
+    "working_likelihood_interval_68_lower": 7.714681851535238,
+    "working_likelihood_interval_68_upper": 9.610801286243005,
+    "working_likelihood_interval_95_lower": 6.94798725670149,
+    "working_likelihood_interval_95_upper": 10.70400975916969,
+    "interpretation": "Conditional profile interval under the Gaussian EIV working likelihood; excludes source and calibration systematics."
+  },
+  {
+    "case_id": "S0__asymmetric__full__g1.000__p0.100__lf2.000__s-free__exclude-none",
+    "model_key": "asymmetric",
+    "parameter": "lambda_back_nm",
+    "optimum": 10.011102534592485,
+    "working_likelihood_interval_68_lower": 8.888193812021436,
+    "working_likelihood_interval_68_upper": 11.380436768231895,
+    "working_likelihood_interval_95_lower": 7.864161550464834,
+    "working_likelihood_interval_95_upper": 12.900253765462244,
+    "interpretation": "Conditional profile interval under the Gaussian EIV working likelihood; excludes source and calibration systematics."
+  }
+]

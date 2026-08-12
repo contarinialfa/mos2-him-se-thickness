@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: se-intensity-modeling
+Version: 0.2.0
+Summary: Reproducible HIM secondary-electron intensity model comparison
+Requires-Python: >=3.11
+Requires-Dist: arviz>=0.17
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.1
+Requires-Dist: pillow>=10.0
+Requires-Dist: pymc<6,>=5.16
+Requires-Dist: scikit-image>=0.22
+Requires-Dist: scipy>=1.11

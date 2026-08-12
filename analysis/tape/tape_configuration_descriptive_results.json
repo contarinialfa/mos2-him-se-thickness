@@ -1,0 +1,50 @@
+{
+  "carbon_reference_ratios_by_dataset": {
+    "Dataset 1": {
+      "one_tape": 1.2240358382177206,
+      "two_tapes": 1.0451333059962176
+    },
+    "Dataset 2": {
+      "one_tape": 1.269843980495492,
+      "two_tapes": 1.1893818414628565
+    },
+    "Dataset 3": {
+      "one_tape": 1.1986025845761563,
+      "two_tapes": 1.0143720884707845
+    }
+  },
+  "description": "Descriptive matched-point changes only; not an SE3-fraction calibration because every configuration has its own carbon denominator.",
+  "matched_points": 15,
+  "normalized_ratios": {
+    "one_tape": {
+      "maximum": 1.1335743303269488,
+      "mean": 1.0479987080440816,
+      "median": 1.0287589285069887,
+      "minimum": 0.9793956187631051,
+      "n": 15
+    },
+    "two_tapes": {
+      "maximum": 1.362950190941319,
+      "mean": 1.1511378558148744,
+      "median": 1.154097791867446,
+      "minimum": 0.985795769242665,
+      "n": 15
+    }
+  },
+  "raw_mos2_ratios": {
+    "one_tape": {
+      "maximum": 1.3889516901179086,
+      "mean": 1.291902804243769,
+      "median": 1.2889428710767592,
+      "minimum": 1.1899308651331115,
+      "n": 15
+    },
+    "two_tapes": {
+      "maximum": 1.4245848966441021,
+      "mean": 1.2471651130736376,
+      "median": 1.245462322800063,
+      "minimum": 1.0298831975673834,
+      "n": 15
+    }
+  }
+}

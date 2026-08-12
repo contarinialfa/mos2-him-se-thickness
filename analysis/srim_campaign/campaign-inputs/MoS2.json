@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "campaign_material": { "material": "MoS2", "density_status": "confirmed in campaign register", "source": "MODEL_v3_SRIM_campaign.md" },
+  "srim_directory": "C:\\Users\\TASC2-7040-07\\Desktop\\SRIM-2013",
+  "output_directory": "C:\\Users\\TASC2-7040-07\\Documents\\Srim\\results\\campaign",
+  "ion": { "z": 2, "symbol": "He", "name": "Helium", "mass_amu": 4.003, "angle_deg": 0 },
+  "calculation": { "name": "He into MoS2", "cascade_mode": 1, "ion_bragg_correction": 1, "autosave_ions": 10000, "random_seed": 13579, "reminders": 0, "plot_type": 5, "plot_xmin_angstrom": 0, "plot_xmax_angstrom": 0, "stopping_power_version": 0 },
+  "outputs": { "ranges": true, "backscattered": true, "transmitted": true, "sputtered": false, "collisions": 0, "exyz_increment_ev": 0 },
+  "layers": [{
+    "name": "MoS2", "width_nm": 500, "density_g_cm3": 5.06, "compound_correction": 1, "phase": 0,
+    "elements": [
+      { "z": 42, "symbol": "Mo", "name": "Molybdenum", "mass_amu": 95.94, "stoich": 1, "displacement_ev": 25, "lattice_binding_ev": 3, "surface_binding_ev": 6.83 },
+      { "z": 16, "symbol": "S", "name": "Sulfur", "mass_amu": 32.066, "stoich": 2, "displacement_ev": 25, "lattice_binding_ev": 3, "surface_binding_ev": 2.88 }
+    ]
+  }],
+  "runs": [{ "name": "placeholder", "energy_keV": 30, "angle_deg": 0, "ion_count": 10000, "layer_1_width_nm": 500 }]
+}

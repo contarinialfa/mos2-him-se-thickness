@@ -1,0 +1,43 @@
+{
+  "transmission": [
+    {
+      "label": "Dataset 1",
+      "name": "Flake 1 (location 4)",
+      "image": "data/raw_images/transmission/flake_1_loc4.tif",
+      "roi_csv": "data/roi_measurements/transmission/flake_1_roi_intensity.csv",
+      "carbon_group_id": 7
+    },
+    {
+      "label": "Dataset 2",
+      "name": "Flake 2 (location 12)",
+      "image": "data/raw_images/transmission/flake_2_loc12.tif",
+      "roi_csv": "data/roi_measurements/transmission/flake_2_roi_intensity.csv",
+      "carbon_group_id": 6
+    },
+    {
+      "label": "Dataset 3",
+      "name": "Flake 3 (location 13)",
+      "image": "data/raw_images/transmission/flake_3_loc13.tif",
+      "roi_csv": "data/roi_measurements/transmission/flake_3_roi_intensity.csv",
+      "carbon_group_id": 5
+    }
+  ],
+  "backside_blocked": [
+    {
+      "label": "Dataset 1",
+      "name": "Backside-blocked flake 1 (location 4)",
+      "image": "data/raw_images/backside_blocked/flake_1_loc4_backside_blocked.tif",
+      "roi_csv": "data/roi_measurements/backside_blocked/flake_1_roi_intensity.csv",
+      "roi_template": "data/roi_templates/backside_blocked/flake_1_roi_template.json",
+      "carbon_group_id": 7
+    },
+    {
+      "label": "Dataset 2",
+      "name": "Backside-blocked flake 2 (location 12)",
+      "image": "data/raw_images/backside_blocked/flake_2_loc12_backside_blocked.tif",
+      "roi_csv": "data/roi_measurements/backside_blocked/flake_2_roi_intensity.csv",
+      "roi_template": "data/roi_templates/backside_blocked/flake_2_roi_template.json",
+      "carbon_group_id": 6
+    }
+  ]
+}
