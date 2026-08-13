@@ -1,6 +1,6 @@
 """Production script for the paper model-comparison figure.
 
-Fits the three models shown in the paper figure (DL/09_paper_fit_report_v2.md)
+Fits the three models shown in the paper figure (docs/09_paper_fit_report_v2.md)
 to the normalized HIM SE transmission data and renders the APL
 single-column figure (fits + normalized residuals):
 
@@ -13,7 +13,7 @@ reaches an acceptable fit, but at a shared escape depth ~4x the physical
 value and a back/front collection ratio ~3 that the geometry forbids. The
 asymmetric model fits equally well with every parameter physical. The
 Simplified Channelling alternative is omitted: it is observationally
-degenerate with the asymmetric model on these data (archived DL/07,
+degenerate with the asymmetric model on these data (archived docs/07,
 section 10.3); it remains in scripts/david_model_exploration.py and
 scripts/thickness_aware_fits.py.
 
@@ -24,7 +24,7 @@ collection-and-generation ratio (expected < 1 from detector geometry).
 The unit-area convention used during exploration (r02) gives identical
 curves and chi2 with C_o -> C_o*lambda_f and C_fb -> C_fb*lambda_b/lambda_f.
 The exploration history and all cross-checks live in
-scripts/david_model_exploration.py (r02-r05) and DL/07_paper_fit_report.md.
+scripts/david_model_exploration.py (r02-r05) and docs/07_paper_fit_report.md.
 """
 
 from __future__ import annotations
@@ -40,7 +40,7 @@ import pandas as pd
 from scipy import interpolate, optimize, signal, stats
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-STYLE_FILE = REPOSITORY_ROOT / "DL" / "dlister_r01.mplstyle"
+STYLE_FILE = REPOSITORY_ROOT / "config" / "dlister_r01.mplstyle"
 DEFAULT_IONIZ = (
     REPOSITORY_ROOT
     / "data"
@@ -107,7 +107,7 @@ def load_him_data(path: Path) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
 
 
 def configure_style() -> None:
-    """Apply David's style sheet (DL/dlister_r01.mplstyle)."""
+    """Apply David's style sheet (config/dlister_r01.mplstyle)."""
     matplotlib.style.use(str(STYLE_FILE))
 
 
@@ -210,7 +210,7 @@ def fit_models(
     cfb, lam_b = split_opt[1], split_opt[2]
     print(f"  C_fb is the physical back/front collection-and-generation ratio; "
           f"unit-area (r02)\n  equivalent: C_fb * lambda_b / lambda_f = "
-          f"{cfb * lam_b / LAMBDA_ESC:.2f} (see archived DL/07 section 10.1)\n"
+          f"{cfb * lam_b / LAMBDA_ESC:.2f} (see archived docs/07 section 10.1)\n"
           f"  lambda_b - lambda_esc = {lam_b - LAMBDA_ESC:.2f} +/- "
           f"{np.sqrt(split_cov[2, 2]):.2f} nm\n"
           f"  nested vs null: dchi2 = {chi2_null - chi2_split:.1f} (1 dof); "

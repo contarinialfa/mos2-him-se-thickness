@@ -1,10 +1,9 @@
 """Acceptance tests for scripts/fit_se_models.py.
 
-Implements the acceptance criteria of DL/medium_anisotropy_handoff.md
-section 5 and the numerical requirements of DL/SE_model_spec_handoff.md
-section 5, against the in-repo SRIM output. Runnable directly::
+Numerical acceptance tests for the SE-escape model implementation,
+run against the in-repo SRIM output. Runnable directly::
 
-    python DL/test_se_models.py
+    python tests/test_se_models.py
 
 or via pytest. A nonzero exit code means at least one test failed.
 """

@@ -1,9 +1,9 @@
 # Thickness-sweep report: finite-thickness correction to the SRIM ionization profile
 
-**Date:** 2026-07-28 · **Harness:** `DL/thickness_sweep_ionization.py` ·
+**Date:** 2026-07-28 · **Harness:** `docs/thickness_sweep_ionization.py` ·
 **Data:** `data/SRIM-Thickness-Series/` + `data/SRIM 30 keV - Monolayer Long/` ·
 **Outputs:** `outputs/thickness_sweep_*.png` (regenerated on every run) ·
-**Companion to:** `DL/05_refined_model_report.md`
+**Companion to:** `docs/05_refined_model_report.md`
 
 ## 1. Purpose
 
@@ -22,10 +22,10 @@ a defensible ionization-vs-depth curve for an arbitrary flake thickness.
 All numbers and figures are produced head-to-tail by
 
 ```
-python DL/thickness_sweep_ionization.py
+python docs/thickness_sweep_ionization.py
 ```
 
-Figures use the repository style sheet `DL/dlister_r01.mplstyle`.
+Figures use the repository style sheet `config/dlister_r01.mplstyle`.
 
 ## 2. Data
 
@@ -148,7 +148,7 @@ returned D(z; t) curve** — comfortably below the effect being corrected.
 
 ```python
 import sys
-sys.path.insert(0, "DL")  # the DL folder is not a package
+sys.path.insert(0, "scripts")  # the scripts folder is not a package
 
 from thickness_sweep_ionization import (
     load_ionization, discover_sweep, build_ionization_model,

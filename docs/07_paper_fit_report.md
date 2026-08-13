@@ -1,6 +1,6 @@
 # [ARCHIVED] Paper-figure fit report: models, mathematics, and fitting procedure
 
-> **ARCHIVED 2026-07-29 — superseded by `DL/09_paper_fit_report_v2.md`.**
+> **ARCHIVED 2026-07-29 — superseded by `docs/09_paper_fit_report_v2.md`.**
 > The paper model set changed: the free-λ symmetric model (discovered via
 > `fit_and_plot_models_r06`; section 12 item 1 here) is now presented as a
 > third fitted model rather than a caveat, and the figure shows three
@@ -11,8 +11,8 @@
 
 **Date:** 2026-07-28 · **Code:** `scripts/david_model_exploration.py` ·
 **Figure:** `outputs/paper_model_comparison.pdf` · **Companions:**
-`DL/05_refined_model_report.md` (model campaign),
-`DL/06_thickness_sweep_report.md` (finite-thickness deposition)
+`docs/05_refined_model_report.md` (model campaign),
+`docs/06_thickness_sweep_report.md` (finite-thickness deposition)
 
 **Audience.** A physicist who does not work with fitting or statistics daily.
 The language stays plain, but every equation needed to reimplement the fits
@@ -581,7 +581,7 @@ about ±2.5σ. (The channelling curve is not plotted: it would lie within
 
 - Canvas: 3.37 × 3.6 in (APL single-column width), two stacked panels
   sharing the t axis, height ratio 3:1, hspace 0.07.
-- Style: `DL/dlister_r01.mplstyle`, then these rc overrides for column
+- Style: `config/dlister_r01.mplstyle`, then these rc overrides for column
   format: `figure.autolayout = False`, `font.size = 9`,
   `axes.labelsize = 10`, `xtick.labelsize = ytick.labelsize = 8`,
   `legend.fontsize = 7`.

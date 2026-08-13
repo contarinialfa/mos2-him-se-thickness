@@ -3,8 +3,8 @@
 **Date:** 2026-07-30 · **Code:** `scripts/rothard_model_exploration.py` ·
 **Paper:** H. Rothard et al., *Target-thickness-dependent electron emission
 from carbon foils bombarded with swift highly charged heavy ions*, Phys.
-Rev. A **51**, 3066 (1995) (PDF in `DL/`) · **Companions:**
-`DL/09_paper_fit_report_v2.md` (our paper fits)
+Rev. A **51**, 3066 (1995) (PDF in `docs/`) · **Companions:**
+`docs/09_paper_fit_report_v2.md` (our paper fits)
 
 **Question.** Rothard et al. measured thickness-dependent electron yields
 from *both* surfaces of thin foils and proposed semiempirical models for
@@ -180,6 +180,6 @@ python scripts/rothard_model_exploration.py
 ```
 
 fits the two anchors and the three Rothard variants, prints every number
-in section 5, and writes the figure to `DL/rothard_comparison.png`.
-Deterministic single-start fits; the paper PDF is in `DL/`, and the model
+in section 5, and writes the figure to `docs/rothard_comparison.png`.
+Deterministic single-start fits; the paper PDF is in `docs/`, and the model
 equations are transcribed in section 2 above.

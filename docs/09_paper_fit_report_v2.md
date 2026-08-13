@@ -2,9 +2,9 @@
 
 **Date:** 2026-07-29 · **Code:** `scripts/paper_model_comparison.py` ·
 **Figure:** `outputs/paper_model_comparison.pdf` · **Companions:**
-`DL/06_thickness_sweep_report.md` (finite-thickness deposition),
-`DL/08_thickness_aware_fits_report.md` (deposition robustness check),
-`DL/07_paper_fit_report.md` (archived: channelling analysis, kernel-convention
+`docs/06_thickness_sweep_report.md` (finite-thickness deposition),
+`docs/08_thickness_aware_fits_report.md` (deposition robustness check),
+`docs/07_paper_fit_report.md` (archived: channelling analysis, kernel-convention
 derivation, C_fb studies)
 
 **Audience.** A physicist who does not work with fitting or statistics
@@ -349,7 +349,7 @@ wrong model shape — while both k = 4 models scatter within ~±2.5σ.
 
 - Canvas 3.37 × 3.6 in (APL single column), two stacked panels sharing the
   t axis, height ratio 3:1, hspace 0.07.
-- Style `DL/dlister_r01.mplstyle` plus rc overrides:
+- Style `config/dlister_r01.mplstyle` plus rc overrides:
   `figure.autolayout = False`, `font.size = 9`, `axes.labelsize = 10`,
   tick label size 8, `legend.fontsize = 7`.
 - Data: black open circles (markersize 3.0, elinewidth 0.6), y errors σ_i,

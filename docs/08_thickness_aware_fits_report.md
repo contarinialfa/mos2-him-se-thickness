@@ -2,8 +2,8 @@
 
 **Date:** 2026-07-29 · **Code:** `scripts/thickness_aware_fits.py` ·
 **Figure:** `outputs/thickness_aware_model_comparison.png` · **Companions:**
-`DL/06_thickness_sweep_report.md` (the deposition model),
-`DL/07_paper_fit_report.md` (the paper fits this report stress-tests)
+`docs/06_thickness_sweep_report.md` (the deposition model),
+`docs/07_paper_fit_report.md` (the paper fits this report stress-tests)
 
 **Audience and purpose.** The paper fits (report 07) assume the deposition
 profile in a t-nm flake is the first t nm of the profile in a very thick
@@ -139,6 +139,6 @@ all six fits (three models × two deposition variants) through identical
 per-point machinery, prints every number in section 2 including the
 per-parameter shift table, and writes the figure. The deposition model
 itself comes from `build_ionization_model` in
-`DL/thickness_sweep_ionization.py`; the earlier exploration version of this
+`docs/thickness_sweep_ionization.py`; the earlier exploration version of this
 integration (unit-area kernels) is preserved as `fit_and_plot_models_r03`
 in `scripts/david_model_exploration.py`.

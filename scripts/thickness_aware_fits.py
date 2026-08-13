@@ -2,7 +2,7 @@
 
 Refits the three models of scripts/paper_model_comparison.py (physical
 escape kernels, identical weighting and bounds) with the finite-thickness
-deposition model D(z; t) of DL/06_thickness_sweep_report.md in place of the
+deposition model D(z; t) of docs/06_thickness_sweep_report.md in place of the
 semi-infinite SRIM profile, and prints both variants side by side.
 
 Both depth and film thickness map measured -> raw through the stretch:
@@ -13,7 +13,7 @@ cumulative evaluation is invalid; every thickness is integrated on its own
 per-point machinery so that the printed differences are purely the
 deposition physics, not numerics.
 
-Documented in DL/08_thickness_aware_fits_report.md.
+Documented in docs/08_thickness_aware_fits_report.md.
 """
 
 from __future__ import annotations
@@ -30,14 +30,14 @@ import pandas as pd
 from scipy import interpolate, optimize, signal
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPOSITORY_ROOT / "DL"))
+sys.path.insert(0, str(REPOSITORY_ROOT / "scripts"))
 from thickness_sweep_ionization import (  # noqa: E402  (needs REPOSITORY_ROOT)
     DEFAULT_SWEEP_DIR,
     build_ionization_model,
     discover_sweep,
 )
 
-STYLE_FILE = REPOSITORY_ROOT / "DL" / "dlister_r01.mplstyle"
+STYLE_FILE = REPOSITORY_ROOT / "config" / "dlister_r01.mplstyle"
 DEFAULT_IONIZ = (
     REPOSITORY_ROOT
     / "data"
@@ -101,7 +101,7 @@ def load_him_data(path: Path) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
 
 
 def configure_style() -> None:
-    """Apply David's style sheet (DL/dlister_r01.mplstyle)."""
+    """Apply David's style sheet (config/dlister_r01.mplstyle)."""
     matplotlib.style.use(str(STYLE_FILE))
 
 

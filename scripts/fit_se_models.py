@@ -1,7 +1,7 @@
 """Blind SE-emission model comparison: M-null, M-asym, and M-med.
 
-Implements the campaign defined in ``DL/SE_model_spec_handoff.md`` with the
-material-anisotropy deposition profiles of ``DL/medium_anisotropy_handoff.md``,
+Implements the SE-escape model comparison campaign with the
+material-anisotropy deposition profiles,
 against the data preserved in this repository:
 
 - Experimental data: ``data/reference_summaries/transmission_bayesian_summary.csv``
@@ -65,7 +65,7 @@ DEFAULT_STARTS = 60
 
 CHI2_CAVEAT = (
     "Absolute chi2/nu is not interpretable as goodness of fit here (error "
-    "model per DL/SE_model_spec_handoff.md); only delta-chi2 / delta-AIC "
+    "model per the campaign specification); only delta-chi2 / delta-AIC "
     "between models fitted to identical data and error model are."
 )
 AIC_CONVENTION = "AIC = chi2_total + 2k (constant Gaussian term dropped)"
@@ -270,7 +270,7 @@ class DepositionModel:
         """Full three-term remapping model (beta = 1), verification only.
 
         Random, still-channeled, and dechanneled populations per
-        DL/medium_anisotropy_handoff.md; the dechanneling integral is done by
+        the campaign specification; the dechanneling integral is done by
         fixed-order Gauss-Legendre quadrature (the prototype's 300-400 point
         rule). Not fitted -- used to validate the M2/M3 reductions.
         """

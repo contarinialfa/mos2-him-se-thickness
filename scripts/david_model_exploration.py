@@ -27,13 +27,13 @@ SHOW_PLOT = True
 DEBUG = False
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(REPOSITORY_ROOT / "DL"))
+sys.path.insert(0, str(REPOSITORY_ROOT / "scripts"))
 from thickness_sweep_ionization import (  # noqa: E402  (needs REPOSITORY_ROOT)
     DEFAULT_SWEEP_DIR,
     build_ionization_model,
     discover_sweep,
 )
-STYLE_FILE = REPOSITORY_ROOT / "DL" / "dlister_r01.mplstyle"
+STYLE_FILE = REPOSITORY_ROOT / "config" / "dlister_r01.mplstyle"
 DEFAULT_IONIZ = (
     REPOSITORY_ROOT
     / "data"
@@ -115,7 +115,7 @@ def load_him_data(
 
 
 def configure_style() -> None:
-    """Apply David's style sheet (DL/dlister_r01.mplstyle)."""
+    """Apply David's style sheet (config/dlister_r01.mplstyle)."""
     matplotlib.style.use(str(STYLE_FILE))
 
 
@@ -574,7 +574,7 @@ def fit_and_plot_models_r03(
     show_figure: bool = True,
 ) -> None:
     """r02 models on the thickness-aware deposition D(z; t) from the SRIM
-    thickness sweep (DL/06_thickness_sweep_report.md). Depth and film thickness
+    thickness sweep (docs/06_thickness_sweep_report.md). Depth and film thickness
     both map measured -> raw through the stretch: D(z/stretch, x/stretch).
     Because D now depends on each point's film thickness, the shared-grid
     cumulative trick is invalid; models integrate per point on [0, x]."""
@@ -731,7 +731,7 @@ def fit_and_plot_models_r04(
     show_figure: bool = True,
 ) -> None:
     """Channelling-model collection-ratio (C_fb) study, documenting the checks
-    behind DL/07_paper_fit_report.md section 4 ("Why this model has no C_fb").
+    behind docs/07_paper_fit_report.md section 4 ("Why this model has no C_fb").
 
     Variants of the r02 channelling model I = A*(Y_f + C_fb*Y_b):
       1. equal weight (C_fb = 1, the paper-figure form)  -- baseline
@@ -974,7 +974,7 @@ def fit_and_plot_models_r05(
     geometry demands). The null's C_fb is unchanged (lambda ratio = 1): the
     null still demands a ~3x back channel, which under this reading requires
     an implausibly large collection/generation asymmetry -- one more way to
-    see it fail. See DL/07_paper_fit_report.md, Eq. (25) discussion."""
+    see it fail. See docs/07_paper_fit_report.md, Eq. (25) discussion."""
     thickness_axes = np.linspace(0, max(ionization_thickness), 500)
     LAMBDA_ESC = 2.0  # nm; data have no leverage below ~12 nm -> treat as input, not fit parameter
 

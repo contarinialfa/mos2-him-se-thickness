@@ -4,7 +4,7 @@ The committed SRIM sweep contains otherwise-identical 30 keV He simulations
 for 10, 20, 30, 40, 50, 70, 100, 150, and 200 nm MoS2 targets, plus the
 high-statistics 300 nm ``Monolayer Long`` run.  This module follows the
 retained-bin and exit-boundary-artifact treatment documented in
-``DL/thickness_sweep_ionization.py``:
+``scripts/thickness_sweep_ionization.py``:
 
 * the final bin of every finite run is always discarded;
 * additional trailing bins are discarded while their finite/long ratio is

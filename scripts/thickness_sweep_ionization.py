@@ -30,7 +30,7 @@ from scipy import interpolate, optimize
 SHOW_PLOT = True
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
-STYLE_FILE = REPOSITORY_ROOT / "DL" / "dlister_r01.mplstyle"
+STYLE_FILE = REPOSITORY_ROOT / "config" / "dlister_r01.mplstyle"
 DEFAULT_LONG_IONIZ = (
     REPOSITORY_ROOT
     / "data"
@@ -49,7 +49,7 @@ DEFAULT_INTERP_PNG = (
 ANGSTROM_PER_NM = 10.0
 
 LONG_COLOR = "#555555"   # neutral reference grey, matches SRIM_COLOR elsewhere
-SWEEP_COLOR = "#2e0acc"  # first color of the DL/dlister_r01.mplstyle cycle
+SWEEP_COLOR = "#2e0acc"  # first color of the config/dlister_r01.mplstyle cycle
 
 
 def load_ionization(path: Path) -> tuple[np.ndarray, np.ndarray]:
@@ -91,7 +91,7 @@ def discover_sweep(sweep_dir: Path) -> list[tuple[float, Path]]:
 
 
 def configure_style() -> None:
-    """Apply David's style sheet (DL/dlister_r01.mplstyle)."""
+    """Apply David's style sheet (config/dlister_r01.mplstyle)."""
     matplotlib.style.use(str(STYLE_FILE))
 
 
