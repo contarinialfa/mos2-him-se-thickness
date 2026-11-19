@@ -1,0 +1,4 @@
+a,b,dX_um,dY_um,dZ_um,stage_travel_3d_um,inplane_on_grid_um,height_pred_dYsin_um,dWD_um,dWD_minus_pred_um,dWD_over_9mm_pct,detector_view_change_deg,detector_view_change_bound_deg,detector_distance_change_um
+09:59:45 flake1 loc4,10:20:58 flake2 loc12-1,20.22,-137.24,0,138.722,102.531,-93.4397,-91,2.43968,1.01111,0.556882,0.579324,25.083
+09:59:45 flake1 loc4,10:38:19 flake3 loc13-1,8.93,-303.11,0,303.242,222.185,-206.372,-202,4.37205,2.24444,1.23616,1.28597,55.6787
+10:20:58 flake2 loc12-1,10:38:19 flake3 loc13-1,-11.29,-165.87,0,166.254,122.011,-112.932,-111,1.93238,1.23333,0.679274,0.706648,30.5957

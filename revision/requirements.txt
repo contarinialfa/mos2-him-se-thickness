@@ -1,0 +1,6 @@
+# Python dependencies for scripts in revision/
+numpy>=1.26
+scipy>=1.11
+pandas>=2.1
+matplotlib>=3.8
+pillow>=10.0

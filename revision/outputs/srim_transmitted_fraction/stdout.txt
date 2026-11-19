@@ -1,0 +1,53 @@
+input: analysis/srim_campaign/route_i_metrics/per_run_metrics.csv
+input: analysis/srim_campaign/route_i_metrics/threshold_14p2_pooled_curves.csv
+runs: 118
+('APL_routeI_recon_10k_v1', '13579') n runs 36 u range 10.0 560.0 n_incident {10000} distinct u 36
+    u: [10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 170.0, 180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0, 260.0, 270.0, 280.0, 290.0, 300.0, 310.0, 320.0, 350.0, 400.0, 500.0, 560.0]
+('APL_routeI_production_100k_v1', '13579') n runs 41 u range 40.0 320.0 n_incident {100000} distinct u 41
+    u: [40.0, 45.0, 50.0, 55.0, 60.0, 65.0, 70.0, 75.0, 80.0, 85.0, 90.0, 95.0, 100.0, 105.0, 110.0, 115.0, 120.0, 125.0, 130.0, 135.0, 140.0, 145.0, 150.0, 160.0, 170.0, 180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0, 255.0, 260.0, 270.0, 280.0, 290.0, 300.0, 310.0, 320.0]
+('APL_routeI_production_100k_v1', '24680') n runs 41 u range 40.0 320.0 n_incident {100000} distinct u 41
+    u: [40.0, 45.0, 50.0, 55.0, 60.0, 65.0, 70.0, 75.0, 80.0, 85.0, 90.0, 95.0, 100.0, 105.0, 110.0, 115.0, 120.0, 125.0, 130.0, 135.0, 140.0, 145.0, 150.0, 160.0, 170.0, 180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0, 255.0, 260.0, 270.0, 280.0, 290.0, 300.0, 310.0, 320.0]
+unique thicknesses: 48 10.0 560.0
+total incident: 8560000 total transmitted: 5080084
+production u: 41 [40.0, 45.0, 50.0, 55.0, 60.0, 65.0, 70.0, 75.0, 80.0, 85.0, 90.0, 95.0, 100.0, 105.0, 110.0, 115.0, 120.0, 125.0, 130.0, 135.0, 140.0, 145.0, 150.0, 160.0, 170.0, 180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0, 255.0, 260.0, 270.0, 280.0, 290.0, 300.0, 310.0, 320.0]
+recon u: 36 [10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0, 120.0, 130.0, 140.0, 150.0, 160.0, 170.0, 180.0, 190.0, 200.0, 210.0, 220.0, 230.0, 240.0, 250.0, 260.0, 270.0, 280.0, 290.0, 300.0, 310.0, 320.0, 350.0, 400.0, 500.0, 560.0]
+recon u overlapping production: 29 ; outside: [10.0, 20.0, 30.0, 350.0, 400.0, 500.0, 560.0]
+
+curve grid: [(0.0, 'analytic'), (10.0, 'recon'), (20.0, 'recon'), (30.0, 'recon'), (40.0, 'production_pooled'), (45.0, 'production_pooled'), (50.0, 'production_pooled'), (55.0, 'production_pooled'), (60.0, 'production_pooled'), (65.0, 'production_pooled'), (70.0, 'production_pooled'), (75.0, 'production_pooled'), (80.0, 'production_pooled'), (85.0, 'production_pooled'), (90.0, 'production_pooled'), (95.0, 'production_pooled'), (100.0, 'production_pooled'), (105.0, 'production_pooled'), (110.0, 'production_pooled'), (115.0, 'production_pooled'), (120.0, 'production_pooled'), (125.0, 'production_pooled'), (130.0, 'production_pooled'), (135.0, 'production_pooled'), (140.0, 'production_pooled'), (145.0, 'production_pooled'), (150.0, 'production_pooled'), (160.0, 'production_pooled'), (170.0, 'production_pooled'), (180.0, 'production_pooled'), (190.0, 'production_pooled'), (200.0, 'production_pooled'), (210.0, 'production_pooled'), (220.0, 'production_pooled'), (230.0, 'production_pooled'), (240.0, 'production_pooled'), (250.0, 'production_pooled'), (255.0, 'production_pooled'), (260.0, 'production_pooled'), (270.0, 'production_pooled'), (280.0, 'production_pooled'), (290.0, 'production_pooled'), (300.0, 'production_pooled'), (310.0, 'production_pooled'), (320.0, 'production_pooled'), (350.0, 'recon'), (400.0, 'recon'), (500.0, 'recon'), (560.0, 'recon')]
+
+Transmission: u at T=0.90: 101.8 ; u at T=0.10: 254.7
+Transmitted fraction T at u = t/s (s = 0.70 is the reference stretch; s = 0.6246 and 0.62 lie at the lower end of the fitted range 0.62-0.73):
+  s=0.7000
+    t=186.0 -> u=265.7 : T=0.0683
+    t=185.7 -> u=265.3 : T=0.0694
+    t=191.2 -> u=273.1 : T=0.0512
+    t=200.0 -> u=285.7 : T=0.0302
+    t=212.0 -> u=302.9 : T=0.0133
+  s=0.6246
+    t=186.0 -> u=297.8 : T=0.0173
+    t=185.7 -> u=297.3 : T=0.0177
+    t=191.2 -> u=306.1 : T=0.0111
+    t=200.0 -> u=320.2 : T=0.0052
+    t=212.0 -> u=339.4 : T=0.0022
+  s=0.6200
+    t=186.0 -> u=300.0 : T=0.0153
+    t=185.7 -> u=299.5 : T=0.0157
+    t=191.2 -> u=308.4 : T=0.0096
+    t=200.0 -> u=322.6 : T=0.0049
+    t=212.0 -> u=341.9 : T=0.0019
+  T at u=100: 0.9043 ; u=255: 0.0990 ; u=287: 0.0284 ; u=300: 0.0153
+
+Local-impact-capable shares (s=0.70):
+  t=40 (u=57.1): T=0.974 ; ions >14.2deg share of transmitted = 0.629 ; weighted share = 0.621 ; transmitted per 2e5 incident = 194716
+  t=55 (u=78.6): T=0.947 ; ions >14.2deg share of transmitted = 0.748 ; weighted share = 0.739 ; transmitted per 2e5 incident = 189340
+  t=42 (u=60.0): T=0.971 ; ions >14.2deg share of transmitted = 0.650 ; weighted share = 0.642 ; transmitted per 2e5 incident = 194241
+  t=56 (u=80.0): T=0.944 ; ions >14.2deg share of transmitted = 0.755 ; weighted share = 0.746 ; transmitted per 2e5 incident = 188888
+same with s=0.62:
+  t=40 (u=64.5): ions share 0.677 ; weighted share 0.669
+  t=55 (u=88.7): ions share 0.785 ; weighted share 0.776
+
+Q_{>14.2} grid maximum at u = 80.0 (value 0.5467); neighbours: [(65.0, 0.5323), (70.0, 0.5406), (75.0, 0.5445), (80.0, 0.5467), (85.0, 0.5439), (90.0, 0.5391), (95.0, 0.5327)]
+grid band 52-56 nm on measured axis corresponds to u = 74.3 - 80.0 (s=0.70)
+u=80.3 -> t at s=0.70: 56.21 ; at s=0.6977: 56.03 ; at s=0.6246: 50.16
+tan(14.2 deg) = 0.2530
+d = 15 tan(4,7 deg) = 1.049, 1.842 ; mid = 1.445 ; 15*tan(5.5deg) = 1.444

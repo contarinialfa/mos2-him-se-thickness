@@ -79,6 +79,15 @@ Python >= 3.11 with the dependencies in `requirements.txt`
 `PROVENANCE.md` maps every repository file to its original acquisition
 filename and documents the ROI-table reconstruction rules.
 
+## Revised manuscript (v1.1.0)
+
+The steps above reproduce the analysis from the initial submission. The
+`revision/` directory, added in v1.1.0, contains the analysis scripts and
+outputs for the revised manuscript, including the model refits with the
+thickness-dependent SRIM ionization profile, the updated Fig. 3, supplementary
+sensitivity checks, and acquisition metadata summaries. See
+`revision/README.md` for details.
+
 ## Large-file note
 
 The full SRIM transmitted-ion campaign archive (118 runs, 48 thicknesses,

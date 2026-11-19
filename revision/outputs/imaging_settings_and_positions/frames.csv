@@ -1,0 +1,17 @@
+role,flake,file,TimeStamp,StageX,StageY,StageZ,StageTilt,StageRotate,WorkingDistance,Fov,PanX,PanY,McXShift,McYShift,ScanRotate,ETContrast,ETBrightness,ETGridVoltage,Detector.Scintillator,SampleBiasVoltage,FloodGunMode,DwellTime,ImageWidth,ImageHeight,AveragingMode,NumAverages
+blocked control,1,data/raw_images/backside_blocked/flake_1_loc4_backside_blocked.tif,8/6/2025 9:53:45 AM,2085.02,1238.49,3.76,42.88,186.71,9.498,30,0.3,0.8,9.777E-12,0,0,46.4,17,500,10000,112.9,Auto,100,2048,2048,Line,2
+blocked control,2,data/raw_images/backside_blocked/flake_2_loc12_backside_blocked.tif,8/6/2025 11:19:49 AM,2098.99,1100.09,3.76,42.88,186.71,9.421,9.5,0.2,-0.2,9.777E-12,0,0,46.4,17,500,10000,114.4,Auto,100,2048,2048,Line,2
+Fig. 3 transmission,1,data/raw_images/transmission/flake_1_loc4.tif,8/14/2025 9:59:45 AM,2136.07,1235.26,3.76,42.91,186.71,9.465,30,0,0.1,9.777E-12,0,0,60,0,500,10000,120,Off,100,2048,2048,Line,2
+Fig. 3 transmission,2,data/raw_images/transmission/flake_2_loc12.tif,8/14/2025 10:20:58 AM,2156.29,1098.02,3.76,42.91,186.71,9.374,9,0,0.2,9.777E-12,0,0,60,0,500,10000,120,Off,100,2048,2048,Line,2
+Fig. 3 transmission,3,data/raw_images/transmission/flake_3_loc13.tif,8/14/2025 10:38:19 AM,2145,932.15,3.76,42.91,186.71,9.263,11,-0.2,0.6,9.777E-12,0,0,60,0,500,10000,123.2,Off,100,2048,2048,Line,2
+tape run 2,1,data/tape_series/large_tape/1-2tape-90deg.tif,7/25/2026 10:52:40 AM,2110.82,1249.17,3.76,42.89,186.71,9.496,30,0.5,-0.6,0,0,0,48.8,0,500,10000,119.8,Off,100,2048,2048,Line,2
+tape run 2,2,data/tape_series/large_tape/2-2tape-90deg.tif,7/25/2026 11:11:54 AM,2126.03,1110.96,3.76,42.89,186.71,9.396,9,0.7,0.4,0,0,0,48.8,0,500,10000,120.3,Off,100,2048,2048,Line,2
+tape run 2,3,data/tape_series/large_tape/3-2tape-90deg.tif,7/25/2026 11:29:06 AM,2108.14,946.43,3.76,42.89,186.71,9.297,11,0.3,-0.4,0,0,0,48.8,0,500,10000,118.3,Off,100,2048,2048,Line,2
+tape run 2,1,data/tape_series/small_tape/1-1tape-90deg.tif,7/25/2026 12:03:39 PM,2262.84,1196.18,3.76,42.89,186.71,9.534,30,0.3,-0.5,0,0,0,48.8,0,500,10000,120,Off,100,2048,2048,Line,2
+tape run 2,3,data/tape_series/small_tape/3-1tape-90deg.tif,7/25/2026 12:49:25 PM,2260.8,894.45,3.76,42.89,186.71,9.333,11,-0.1,0,0,0,0,48.8,0,500,10000,120.8,Off,100,2048,2048,Line,2
+tape run 2,2,data/tape_series/small_tape/2-1tape-90deg.tif,7/25/2026 1:08:40 PM,2277.32,1057.57,3.76,42.89,186.71,9.447,9,0.5,0,0,0,0,48.8,0,500,10000,120.3,Off,100,2048,2048,Line,2
+tape run 2,1,data/tape_series/45deg_converter/1-1tape-45deg.tif,7/25/2026 1:36:32 PM,2311.07,1178.14,3.76,42.89,186.71,9.561,30,-0.3,0.8,0,0,0,48.8,0,500,10000,119,Off,100,2048,2048,Line,2
+tape run 2,1,data/tape_series/backside_blocked/1-1tape-0deg.tif,7/27/2026 7:53:07 AM,2313.02,1185.28,3.76,42.89,186.7,9.54,30,0.1,-0.3,0,0,0,48.8,0,500,10000,119.5,Off,100,2048,2048,Line,2
+tape run 2,1,data/tape_series/control/1-0.tif,7/27/2026 8:54:26 AM,2322.68,1180.86,3.76,42.89,186.71,9.509,30,0.4,-0.4,0,0,0,48.8,0,500,10000,119,Off,100,2048,2048,Line,2
+tape run 2,2,data/tape_series/control/2-0.tif,7/27/2026 9:10:04 AM,2338.85,1042.23,3.76,42.89,186.71,9.43,9,0.7,0.6,0,0,0,48.8,0,500,10000,120.8,Off,100,2048,2048,Line,2
+tape run 2,3,data/tape_series/control/3-0.tif,7/27/2026 9:25:31 AM,2322.02,876.97,3.76,42.89,186.71,9.327,11,1,0.9,0,0,0,48.8,0,500,10000,120.5,Off,100,2048,2048,Line,2

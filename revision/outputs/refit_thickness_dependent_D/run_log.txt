@@ -1,0 +1,42 @@
+long: baseline done (null 48.22/12, symfree 15.53/11, split 14.89/11, lambda_b 9.626 +/- 1.283)
+long: scale sweep done
+long: point thickness error done
+long: Flake 3 tests done
+long: entrance scale done
+aware: baseline done (null 60.42/12, symfree 14.92/11, split 14.31/11, lambda_b 10.171 +/- 1.219)
+aware: scale sweep done
+aware: point thickness error done
+aware: Flake 3 tests done
+aware: entrance scale done
+
+Comparison of long-target baseline against v1.0 reference values:
+   null chi2                          current    48.2169   v1.0    48.2171   rel. diff 4.4e-06
+   null chi2_common                   current    48.2169   v1.0    48.2171   rel. diff 4.4e-06
+   null C_b                           current     2.9929   v1.0     2.9929   rel. diff 3.6e-07
+   null s                             current     0.7011   v1.0     0.7011   rel. diff 1.3e-06
+   null peak_nm                       current    18.8000   v1.0    18.8000   rel. diff 1.6e-14
+   symfree chi2                       current    15.5285   v1.0    15.5286   rel. diff 4.9e-06
+   symfree chi2_common                current    18.9543   v1.0    18.9546   rel. diff 1.2e-05
+   symfree C_b                        current     3.1158   v1.0     3.1158   rel. diff 7.1e-07
+   symfree s                          current     0.6350   v1.0     0.6350   rel. diff 4.4e-06
+   symfree peak_nm                    current    39.9200   v1.0    39.9200   rel. diff 1.9e-14
+   split chi2                         current    14.8939   v1.0    14.8939   rel. diff 1.5e-07
+   split chi2_common                  current    17.4696   v1.0    17.4698   rel. diff 1.1e-05
+   split C_b                          current     0.6487   v1.0     0.6487   rel. diff 4.3e-06
+   split s                            current     0.6246   v1.0     0.6246   rel. diff 2.3e-06
+   split peak_nm                      current    41.5200   v1.0    41.5400   rel. diff 4.8e-04
+   split lambda_b                     current     9.6255   v1.0     9.6255   rel. diff 4.8e-06
+   split lambda_b_err                 current     1.2832   v1.0     1.2832   rel. diff 2.8e-06
+   b_scale_k0.80 null chi2            current    47.2580   v1.0    47.2583   rel. diff 5.6e-06
+   b_scale_k0.80 split chi2           current    14.9165   v1.0    14.9165   rel. diff 3.0e-07
+   b_scale_k0.80 lambda_b             current     7.6951   v1.0     7.6951   rel. diff 2.2e-06
+   b_scale_k1.20 null chi2            current    48.4331   v1.0    48.4333   rel. diff 3.0e-06
+   b_scale_k1.20 split chi2           current    14.8887   v1.0    14.8887   rel. diff 1.7e-06
+   b_scale_k1.20 lambda_b             current    11.5506   v1.0    11.5507   rel. diff 1.9e-06
+   c_tfe05 null chi2                  current    59.2680   v1.0    59.2682   rel. diff 2.8e-06
+   c_tfe05 split chi2                 current    27.7959   v1.0    27.7957   rel. diff 7.0e-06
+   c_tfe05 lambda_b                   current     9.1072   v1.0     9.1073   rel. diff 7.9e-06
+   c_tfe20 null chi2                  current    41.2475   v1.0    41.2475   rel. diff 7.8e-07
+   c_tfe20 split chi2                 current     6.4877   v1.0     6.4875   rel. diff 4.5e-05
+   c_tfe20 lambda_b                   current    10.3434   v1.0    10.3431   rel. diff 3.2e-05
+   largest relative difference: 4.8e-04

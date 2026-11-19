@@ -1,0 +1,22 @@
+03_related_non-HIM/optical-stereo_location-maps/2025-07-11/large 1.tif
+    {"file": "large 1.tif", "width": 3584, "height": 2748, "pitch_x_px": 70.56, "pitch_y_px": 70.64, "pitch_px": 70.6, "pitch_line_fit_sd_px": 6.13, "n_bars": 66, "centre_x_px": 1852.87, "centre_y_px": 1382.35, "mesh_edge_r_px": 1122.71, "mesh_edge_rms_px": 7.23, "mesh_edge_points": "703/709", "outer_centre_x_px": 1852.68, "outer_centre_y_px": 1380.95, "outer_r_px": 1315.07, "outer_rms_px": 3.31, "outer_points": "709/709"}
+03_related_non-HIM/optical-stereo_location-maps/MoS2-E10/location.tif
+    {"file": "location.tif", "width": 3584, "height": 2748, "pitch_x_px": 112.64, "pitch_y_px": 113.16, "pitch_px": 112.9, "pitch_line_fit_sd_px": 1.38, "n_bars": 55, "centre_x_px": 1778.2, "centre_y_px": 1468.21, "mesh_edge_r_px": 1796.26, "mesh_edge_rms_px": 9.1, "mesh_edge_points": "310/316", "outer_centre_x_px": 1778.24, "outer_centre_y_px": 1468.54, "outer_r_px": 2107.76, "outer_rms_px": 5.8, "outer_points": "59/62"}
+
+Full-grid image: outer rim r = 1315.1 px = 18.63 pitches; meshed-area edge r = 1122.7 px = 15.90 pitches
+Location map: meshed-area edge r = 15.91 pitches; outer rim r = 18.67 pitches (corner arcs only)
+Scale from the nominal 3.05 mm outer diameter: mesh pitch = 81.87 um; meshed area diameter = 2604 um; location map 0.7252 um/px
+
+box 5: 0 single-box candidates (outline touches a neighbour); not used
+box 8: 0 single-box candidates (outline touches a neighbour); not used
+box 14: 0 single-box candidates (outline touches a neighbour); not used
+box 15: 0 single-box candidates (outline touches a neighbour); not used
+box 17: 0 single-box candidates (outline touches a neighbour); not used
+Similarity fit, optical box centres -> HIM in-plane stage coordinates (StageX, StageY*cos(tilt)), 12 locations of the survey mounting:
+    reflection yes; scale 0.7074 um/px (pitch-based 0.7252; ratio 0.975); rotation 43.6 deg; residual rms 12.1 um, max 23.4 um (mesh pitch 81.9 um)
+    other handedness: rms 197.6 um
+
+Flake 1 (loc4): box centre 263 um from the grid centre; its HIM fields 235-242 um
+Flake 2 (loc12): box centre 351 um from the grid centre; its HIM fields 341-354 um
+Flake 3 (loc13): box centre 468 um from the grid centre; its HIM fields 472-474 um
+All analysed flakes: 235-474 um from the grid centre = 31% of the grid radius (1525 um), 36% of the meshed-area radius (1302 um)

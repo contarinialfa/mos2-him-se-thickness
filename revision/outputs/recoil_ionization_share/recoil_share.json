@@ -1,0 +1,26 @@
+{
+  "input": "data/SRIM 30 keV - Monolayer Long/IONIZ.txt",
+  "rows": 100,
+  "method": "piecewise-linear trapezoidal integral on SRIM depth axis; constant extension to zero; recoil/(ion+recoil)",
+  "integrals": [
+    {
+      "depth_nm": [
+        0,
+        60.0
+      ],
+      "recoil_fraction_of_total": 0.01787365577414944,
+      "recoil_fraction_of_ions": 0.018198937315176227
+    },
+    {
+      "depth_nm": [
+        0,
+        300.0
+      ],
+      "recoil_fraction_of_total": 0.03279260796906804,
+      "recoil_fraction_of_ions": 0.033904422401291275
+    }
+  ],
+  "local_200_to_300nm_fraction_min": 0.06503097119312064,
+  "local_200_to_300nm_fraction_max": 0.11098015515349129,
+  "scope": "Share of the SRIM recoil-ionization column omitted from the SE-escape models (SI Sec. SVIII)."
+}

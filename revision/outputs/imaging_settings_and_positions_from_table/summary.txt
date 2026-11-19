@@ -1,0 +1,37 @@
+imaging_settings_and_positions.py  python 3.11.7  numpy 2.4.6
+input: per-frame table revision/outputs/analysed_frames_metadata/frames.csv
+
+Analysed frames: 33 (3 Fig. 3 transmission, 2 blocked control, 11 tape run 1, 17 tape run 2)
+Units as recorded: not stored in the per-frame table (the frame-reading mode prints them)
+
+Fig. 3 frames: McXShift ['9.777E-12'], McYShift ['0'], ScanRotate ['0'], max |PanX|,|PanY| = 0.60 um, StageZ ['3.76'], StageTilt ['42.91']
+blocked control: McXShift ['9.777E-12'], McYShift ['0'], ScanRotate ['0'], max |PanX|,|PanY| = 0.80 um, StageZ ['3.76'], StageTilt ['42.88']
+tape runs: McXShift ['0'], McYShift ['0'], ScanRotate ['0'], max |PanX|,|PanY| = 1.00 um, StageZ ['3.76'], StageTilt ['42.88', '42.89']
+all analysed: McXShift ['0', '9.777E-12'], McYShift ['0'], ScanRotate ['0'], max |PanX|,|PanY| = 1.00 um, StageZ ['3.76'], StageTilt ['42.88', '42.89', '42.91']
+
+Acquisition settings (image size; averaging mode, number of averages; dwell; ET grid; sample-bias read-back):
+  Fig. 3 frames (n=3): not in the table; not in the table; DwellTime ['100']; ETGridVoltage ['500']; SampleBiasVoltage 120-123.2
+  blocked control (n=2): not in the table; not in the table; DwellTime ['100']; ETGridVoltage ['500']; SampleBiasVoltage 112.9-114.4
+  tape runs (n=28): not in the table; not in the table; DwellTime ['100']; ETGridVoltage ['500']; SampleBiasVoltage 116.6-121.2
+  all analysed (n=33): not in the table; not in the table; DwellTime ['100']; ETGridVoltage ['500']; SampleBiasVoltage 112.9-123.2
+
+Fig. 3 frames:
+  flake 1: 8/14/2025 9:59:45 AM; StageX 2136.07, StageY 1235.26 um; WD 9.465 mm; Fov 30 um; Pan (0, 0.1) um; tilt 42.91 deg; ETContrast 60, ETBrightness 0, ETGrid 500 V, scint 10000 V, sample bias 120 V, flood Off, dwell 100
+  flake 2: 8/14/2025 10:20:58 AM; StageX 2156.29, StageY 1098.02 um; WD 9.374 mm; Fov 9 um; Pan (0, 0.2) um; tilt 42.91 deg; ETContrast 60, ETBrightness 0, ETGrid 500 V, scint 10000 V, sample bias 120 V, flood Off, dwell 100
+  flake 3: 8/14/2025 10:38:19 AM; StageX 2145, StageY 932.15 um; WD 9.263 mm; Fov 11 um; Pan (-0.2, 0.6) um; tilt 42.91 deg; ETContrast 60, ETBrightness 0, ETGrid 500 V, scint 10000 V, sample bias 123.2 V, flood Off, dwell 100
+  time span of the three frames: 38.6 min; same calendar day: True
+  WD range 9.263-9.465 mm = 202 um = 2.24% of 9 mm
+  pairs: stage travel / in-plane on grid / predicted dY*sin(tilt) / measured dWD (um)
+    flake 1->2: dX 20.22, dY -137.24; travel 138.7; in-plane 102.5; predicted -93.4; measured -91.0
+    flake 1->3: dX 8.93, dY -303.11; travel 303.2; in-plane 222.2; predicted -206.4; measured -202.0
+    flake 2->3: dX -11.29, dY -165.87; travel 166.3; in-plane 122.0; predicted -112.9; measured -111.0
+  in-plane separations 102.5-222.2 um; largest = 7.3% of the 3.05 mm grid diameter
+  largest height change 202 um seen from 9 mm at 16 deg elevation: view-angle change 1.24 deg, distance change from the vertical move alone 56 um (0.62%; any detector azimuth: detector_distance_bound.py)
+
+Angle spanned by one field as seen from 9 mm (half-field; half-diagonal):
+  Fov 8.5 um: +/-0.027 deg; +/-0.038 deg
+  Fov 9 um: +/-0.029 deg; +/-0.041 deg
+  Fov 9.5 um: +/-0.030 deg; +/-0.043 deg
+  Fov 11 um: +/-0.035 deg; +/-0.050 deg
+  Fov 30 um: +/-0.095 deg; +/-0.135 deg
+  Fig. 3 fields: [9.0, 11.0, 30.0] um

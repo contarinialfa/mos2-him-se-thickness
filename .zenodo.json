@@ -1,0 +1,15 @@
+{
+  "title": "Data and analysis code for thickness-dependent secondary-electron emission from suspended MoS2 membranes in the helium ion microscope",
+  "version": "v1.1.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {"name": "Kim, Cyan", "affiliation": "Department of Physics, Simon Fraser University, Burnaby, BC, Canada"},
+    {"name": "Lister, David", "affiliation": "Department of Physics, Simon Fraser University, Burnaby, BC, Canada"},
+    {"name": "Jackle, Philip", "affiliation": "Department of Physics, Simon Fraser University, Burnaby, BC, Canada"},
+    {"name": "Kavanagh, Karen L.", "affiliation": "Department of Physics, Simon Fraser University, Burnaby, BC, Canada"}
+  ],
+  "description": "<p>Data and analysis code accompanying the manuscript \"Thickness-dependent secondary-electron emission from suspended MoS2 membranes in the helium ion microscope\" (C. Kim, D. Lister, P. Jackle, and K. L. Kavanagh), revised for Applied Physics Letters.</p><p>The repository contains the raw HIM images (transmission, backside-blocked, and copper-tape converter series), ROI intensity tables and extraction scripts, Bayesian carbon-reference normalization, SE-escape model comparisons, sensitivity analyses, SRIM inputs, and transmitted-ion trajectory analyses.</p><p>Version 1.1.0 adds <code>revision/</code>, containing the analysis scripts and outputs for the revised manuscript: model refits using the thickness-dependent SRIM ionization profile, the updated Fig. 3, supplementary sensitivity checks, and acquisition metadata summaries. All version 1.0.0 files remain unchanged so that the originally submitted analysis is preserved. See <code>revision/README.md</code> for details.</p><p>The full SRIM transmitted-ion campaign archive (mos2-30keV-srim-transmitted-ion-campaign.zip, 440 MB) is attached to GitHub release v1.0.0 of the repository.</p><p>Code: MIT License. Data: CC BY 4.0. See <code>LICENSE</code> and <code>README.md</code> for details.</p>",
+  "keywords": ["helium ion microscopy", "secondary electron emission", "MoS2", "suspended membranes", "SRIM", "thickness"]
+}

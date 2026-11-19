@@ -1,0 +1,11 @@
+Change in sample-to-detector distance between the Fig. 3 flakes, any detector azimuth
+input: revision/outputs/grid_positions/pairs_fig3.csv
+constants: detector distance 9 mm, elevation 16 deg (main text, Methods)
+
+pair | in-plane h (um) | dWD (um) | 3-D travel (um) | vertical-only dD (um) | max dD any azimuth (um, % of 9 mm)
+09:59:45 flake1 loc4 -> 10:20:58 flake2 loc12-1 | 102.5 | -91.0 | 138.7 | 25.1 | 123.6 (1.37%)
+09:59:45 flake1 loc4 -> 10:38:19 flake3 loc13-1 | 222.2 | -202.0 | 303.2 | 55.7 | 269.3 (2.99%)
+10:20:58 flake2 loc12-1 -> 10:38:19 flake3 loc13-1 | 122.0 | -111.0 | 166.3 | 30.6 | 147.9 (1.64%)
+
+largest change for any azimuth: 269 um = 3.0% of 9 mm (upper bound; the vertical-only figure is the lower end)
+check: never larger than the 3-D stage travel (303 um).

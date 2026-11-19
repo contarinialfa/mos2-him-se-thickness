@@ -1,0 +1,138 @@
+long SRIM grid: 100 bins, 3.0010 .. 300.0010 nm; D first 14.8368, last five [0.1004 0.0781 0.0596 0.0431 0.0278] eV/A
+direct D(z; x) evaluation vs build_ionization_model: largest relative difference 7.32e-16
+refit grid end point is inside the film for all 15 thicknesses (no zeroed last node)
+
+=== trapezoidal-quadrature fits (3 weighting passes, slope on 500-point axis) ===
+long      null    chi2 48.2168 (fit weights 48.5410) common 48.2168 | C_o 0.011045 +/- 0.00044, C_b 2.993 +/- 0.159, s 0.70112 +/- 0.0304
+                  results.json: chi2 48.2169 common 48.2169 | C_o 0.011045 +/- 0.00044, C_b 2.9929 +/- 0.159, s 0.70112 +/- 0.0304
+long      symfree chi2 15.5284 (fit weights 15.8972) common 18.9544 | C_o 0.0026805 +/- 0.000325, C_b 3.1158 +/- 0.131, s 0.635 +/- 0.0321, lambda 8.2728 +/- 0.982
+                  results.json: chi2 15.5285 common 18.9543 | C_o 0.0026805 +/- 0.000325, C_b 3.1158 +/- 0.131, s 0.635 +/- 0.0321, lambda 8.2728 +/- 0.982
+long      split   chi2 14.8934 (fit weights 15.0541) common 17.4693 | C_o 0.011139 +/- 0.000334, C_b 0.64871 +/- 0.0827, lambda_b 9.6256 +/- 1.28, s 0.62459 +/- 0.0335
+                  results.json: chi2 14.8939 common 17.4696 | C_o 0.011139 +/- 0.000334, C_b 0.64871 +/- 0.0827, lambda_b 9.6255 +/- 1.28, s 0.62461 +/- 0.0335
+long      symfree nested dchi2 (common) 29.262, sqrt 5.409   results.json 29.263
+long      split   nested dchi2 (common) 30.748, sqrt 5.545   results.json 30.747
+aware     null    chi2 60.4180 (fit weights 60.1864) common 60.4180 | C_o 0.010899 +/- 0.000695, C_b 3.3231 +/- 0.275, s 0.7337 +/- 0.0364
+                  results.json: chi2 60.4181 common 60.4181 | C_o 0.010899 +/- 0.000696, C_b 3.323 +/- 0.275, s 0.7337 +/- 0.0364
+aware     symfree chi2 14.9202 (fit weights 15.1408) common 19.0967 | C_o 0.0025132 +/- 0.000278, C_b 3.387 +/- 0.144, s 0.63904 +/- 0.0333, lambda 8.7911 +/- 0.944
+                  results.json: chi2 14.9203 common 19.0967 | C_o 0.0025132 +/- 0.000278, C_b 3.387 +/- 0.144, s 0.63904 +/- 0.0333, lambda 8.791 +/- 0.944
+aware     split   chi2 14.3073 (fit weights 14.2627) common 17.3032 | C_o 0.011093 +/- 0.000345, C_b 0.66449 +/- 0.078, lambda_b 10.171 +/- 1.22, s 0.62781 +/- 0.0346
+                  results.json: chi2 14.3073 common 17.3031 | C_o 0.011093 +/- 0.000345, C_b 0.66448 +/- 0.078, lambda_b 10.171 +/- 1.22, s 0.62781 +/- 0.0346
+aware     symfree nested dchi2 (common) 41.321, sqrt 6.428   results.json 41.321
+aware     split   nested dchi2 (common) 43.115, sqrt 6.566   results.json 43.115
+rawinterp null    chi2 59.7882 (fit weights 59.4708) common 59.7882 | C_o 0.010874 +/- 0.000768, C_b 3.331 +/- 0.304, s 0.73107 +/- 0.037
+rawinterp symfree chi2 60.1343 (fit weights 59.2617) common 60.2885 | C_o 0.10706 +/- 1.01, C_b 3.4397 +/- 0.401, s 0.75135 +/- 0.0385, lambda 0.2 +/- 1.88
+rawinterp split   chi2 59.9013 (fit weights 59.0915) common 59.9593 | C_o 0.010728 +/- 0.000902, C_b 34.26 +/- 316, lambda_b 0.2 +/- 1.84, s 0.75036 +/- 0.0382
+rawinterp symfree nested dchi2 (common) -0.500, sqrt nan
+rawinterp split   nested dchi2 (common) -0.171, sqrt nan
+trapezoid grid convergence, aware symfree chi2 at n = 2001 / 8001 / 64001: 14.92025 / 14.92021 / 14.92021
+
+=== weighting sensitivity (aware) ===
+12 passes, axis slope    null 60.471 (fit weights 60.471) | symfree 14.905 lambda 8.786 | split 14.243 lambda_b 10.187 +/- 1.237 | dchi2 common sym 41.36 split 43.17
+3 passes, direct slope   null 60.449 (fit weights 60.221) | symfree 14.928 lambda 8.791 | split 14.301 lambda_b 10.170 +/- 1.219 | dchi2 common sym 41.34 split 43.14
+12 passes, direct slope  null 60.505 (fit weights 60.505) | symfree 14.916 lambda 8.784 | split 14.240 lambda_b 10.185 +/- 1.237 | dchi2 common sym 41.39 split 43.20
+
+=== derived quantities recomputed by trapezoidal integration ===
+long  symfree chi2_common trap 18.9545 refit 18.9543 | dchi2 trap 29.2624 refit 29.2625
+long  split   chi2_common trap 17.4699 refit 17.4696 | dchi2 trap 30.7469 refit 30.7473
+long  null    chi2_common trap 48.2168 refit 48.2169
+long  null    model maximum trap 18.80 nm, I 1.31875 | refit 18.80 nm, I 1.31875
+long  symfree model maximum trap 39.92 nm, I 1.34364 | refit 39.92 nm, I 1.34364
+long  split   model maximum trap 41.52 nm, I 1.34563 | refit 41.52 nm, I 1.34563
+long  maximum / blocked mean 0.2361: trap 5.6994 (minus 1: 4.6994) | refit 5.6994 (4.6994)
+long  lambda_b 9.6255 +/- 1.2832; with 15% scale 1.9316 (refit 1.9316); with 20% scale 2.3136 (refit 2.3136)
+long  entrance term trap {14.1: 0.33081, 54.1: 0.3311, 100.0: 0.33111, 212.0: 0.33111} | refit {'14.1': 0.33081, '54.1': 0.3311, '100.0': 0.3311, '212.0': 0.3311}
+long  exit term trap {14.1: 0.79988, 54.1: 0.99825, 100.0: 0.69268, 191.2: 0.01083, 212.0: 0.00296} | refit at 212 nm 0.002958
+aware symfree chi2_common trap 19.0968 refit 19.0967 | dchi2 trap 41.3213 refit 41.3214
+aware split   chi2_common trap 17.3033 refit 17.3031 | dchi2 trap 43.1149 refit 43.1150
+aware null    chi2_common trap 60.4182 refit 60.4181
+aware null    model maximum trap 13.02 nm, I 1.33877 | refit 13.02 nm, I 1.33877
+aware symfree model maximum trap 39.22 nm, I 1.34372 | refit 39.22 nm, I 1.34372
+aware split   model maximum trap 40.26 nm, I 1.34530 | refit 40.26 nm, I 1.34529
+aware maximum / blocked mean 0.2361: trap 5.6980 (minus 1: 4.6980) | refit 5.6980 (4.6980)
+aware lambda_b 10.1710 +/- 1.2192; with 15% scale 1.9530 (refit 1.9530); with 20% scale 2.3716 (refit 2.3716)
+aware entrance term trap {14.1: 0.32074, 54.1: 0.32809, 100.0: 0.32949, 212.0: 0.32973} | refit {'14.1': 0.32074, '54.1': 0.32809, '100.0': 0.32949, '212.0': 0.32972}
+aware exit term trap {14.1: 0.80262, 54.1: 0.99628, 100.0: 0.69343, 191.2: 0.01396, 212.0: 0.00362} | refit at 212 nm 0.003620
+
+=== D(z; x) kernel validation (validate_model) ===
+
+Model sanity: max |R(300.001 nm) - 1| = 0.0000; body mean R(10 nm) = 0.9610; thickness clamped to [10, 300.001] nm
+Per-run agreement (global model vs fit points; rms includes MC noise):
+     10 nm: rms 0.0043, max |dev| 0.0185, MC noise sigma 0.0015
+     20 nm: rms 0.0034, max |dev| 0.0091, MC noise sigma 0.0022
+     30 nm: rms 0.0031, max |dev| 0.0084, MC noise sigma 0.0018
+     40 nm: rms 0.0037, max |dev| 0.0112, MC noise sigma 0.0024
+     50 nm: rms 0.0031, max |dev| 0.0090, MC noise sigma 0.0022
+     70 nm: rms 0.0028, max |dev| 0.0071, MC noise sigma 0.0019
+    100 nm: rms 0.0039, max |dev| 0.0088, MC noise sigma 0.0017
+    150 nm: rms 0.0047, max |dev| 0.0119, MC noise sigma 0.0017
+    200 nm: rms 0.0041, max |dev| 0.0099, MC noise sigma 0.0022
+Leave-one-out validation (global model refitted without each run):
+     20 nm: rms dev 0.0034, max |dev| 0.0090, MC noise sigma 0.0022
+     30 nm: rms dev 0.0033, max |dev| 0.0086, MC noise sigma 0.0018
+     40 nm: rms dev 0.0039, max |dev| 0.0116, MC noise sigma 0.0024
+     50 nm: rms dev 0.0033, max |dev| 0.0093, MC noise sigma 0.0022
+     70 nm: rms dev 0.0028, max |dev| 0.0074, MC noise sigma 0.0019
+    100 nm: rms dev 0.0043, max |dev| 0.0098, MC noise sigma 0.0017
+    150 nm: rms dev 0.0055, max |dev| 0.0137, MC noise sigma 0.0017
+
+=== D(z; x) against the raw finite-thickness SRIM runs ===
+ratio R = D_run / D_long per bin (last bin excluded); "exit zone" = last 10 % of the film
+ t_raw   rms(model-raw)  mean(model-raw) exit zone   max|dev|   raw R last kept bin   model R there   raw R of dropped last bin
+    10   0.0043          +0.0017                     0.0185     0.9306                0.9490          0.0463
+    20   0.0034          -0.0006                     0.0091     0.9297                0.9373          0.5700
+    30   0.0031          -0.0010                     0.0084     0.9235                0.9263          0.5225
+    40   0.0037          -0.0022                     0.0112     0.9154                0.9158          0.6551
+    50   0.0031          -0.0013                     0.0090     0.9070                0.9057          0.6992
+    70   0.0028          -0.0005                     0.0071     0.8862                0.8870          0.7447
+   100   0.0039          +0.0004                     0.0088     0.8572                0.8628          0.7617
+   150   0.0047          +0.0044                     0.0119     0.8271                0.8341          0.7529
+   200   0.0041          -0.0064                     0.0099     0.8273                0.8219          0.7469
+
+escape-weighted sums over the SRIM bins of each run: (model D)/(raw run) - 1 and (long D)/(raw run) - 1, in percent
+  weight entrance/null 2 nm (3.19 nm on the SRIM scale)
+   t_raw   exit: model   exit: long   entrance: model   entrance: long
+      10     +0.05         +4.73        +0.00             +3.69
+      20     +0.02         +5.81        +0.16             +3.07
+      30     -0.19         +6.71        +0.23             +2.46
+      40     -0.25         +7.75        +0.36             +2.08
+      50     -0.12         +8.95        +0.21             +1.53
+      70     -0.02        +11.05        -0.21             +0.57
+     100     +0.24        +13.93        -0.26             +0.09
+     150     +0.50        +17.15        -0.08             +0.02
+     200     -0.85        +16.32        -0.10             -0.07
+  weight symfree 8.79 nm (13.76 nm on the SRIM scale)
+   t_raw   exit: model   exit: long   entrance: model   entrance: long
+      10     -0.00         +4.31        -0.02             +4.03
+      20     +0.03         +4.76        +0.06             +3.82
+      30     -0.12         +5.13        +0.06             +3.35
+      40     -0.09         +5.75        +0.25             +3.01
+      50     +0.02         +6.48        +0.15             +2.38
+      70     +0.07         +7.70        -0.14             +1.21
+     100     -0.08         +8.87        -0.34             +0.24
+     150     +0.48        +10.16        -0.19             -0.06
+     200     -0.55         +7.82        -0.19             -0.16
+  weight split exit 10.17 nm (16.20 nm on the SRIM scale)
+   t_raw   exit: model   exit: long   entrance: model   entrance: long
+      10     -0.00         +4.28        -0.02             +4.05
+      20     +0.03         +4.69        +0.06             +3.88
+      30     -0.11         +4.99        +0.05             +3.45
+      40     -0.06         +5.55        +0.23             +3.15
+      50     +0.04         +6.19        +0.15             +2.56
+      70     +0.07         +7.24        -0.13             +1.39
+     100     -0.09         +8.23        -0.34             +0.33
+     150     +0.45         +9.26        -0.21             -0.06
+     200     -0.48         +6.89        -0.18             -0.15
+
+=== where the 15 data points sit on the SRIM scale (x / s) ===
+split   s = 0.6278: x/s = [ 22.5  37.3  52.6  56.7  64.7  86.2 103.5 147.3 151.3 224.1 240.  254.9
+ 295.8 304.6 337.7]
+        inside the sweep (10-200 nm): 9 points; between the 200 nm run and the 300 nm target: 4 (measured [140.7 150.7 160.  185.7] nm); beyond 300 nm: 2 (measured [191.2 212. ] nm)
+symfree s = 0.6390: x/s = [ 22.1  36.6  51.6  55.7  63.5  84.7 101.7 144.7 148.7 220.2 235.8 250.4
+ 290.6 299.2 331.7]
+        inside the sweep (10-200 nm): 9 points; between the 200 nm run and the 300 nm target: 5 (measured [140.7 150.7 160.  185.7 191.2] nm); beyond 300 nm: 1 (measured [212.] nm)
+null    s = 0.7337: x/s = [ 19.2  31.9  45.   48.5  55.3  73.7  88.6 126.1 129.5 191.8 205.4 218.1
+ 253.1 260.6 288.9]
+        inside the sweep (10-200 nm): 10 points; between the 200 nm run and the 300 nm target: 5 (measured [150.7 160.  185.7 191.2 212. ] nm); beyond 300 nm: 0 (measured [] nm)
+exit-face reduction applied by the model at each data point, D(x/s; x/s) / D_long(x/s), split s:
+   14.1 nm: 0.934, 23.4 nm: 0.917, 33 nm: 0.901, 35.6 nm: 0.896, 40.6 nm: 0.888, 54.1 nm: 0.868, 65 nm: 0.852, 92.5 nm: 0.817, 95 nm: 0.815, 140.7 nm: 0.773, 150.7 nm: 0.766, 160 nm: 0.761, 185.7 nm: 0.852, 191.2 nm: 1.000, 212 nm: 1.000
+deficit amplitude A(z) and kernel length lam(z) of the fitted model: z=20: A 0.063, lam 34.3 nm, z=100: A 0.145, lam 20.4 nm, z=200: A 0.215, lam 10.7 nm, z=250: A 0.237, lam 7.7 nm, z=300: A 0.251, lam 5.6 nm

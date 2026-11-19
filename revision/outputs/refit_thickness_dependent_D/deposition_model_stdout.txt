@@ -1,0 +1,24 @@
+  note: trimmed 1 extra artifact bin(s) from the 10 nm run
+
+Stage 1 -- per-run exponential deficit fits d(u) = a*exp(-u/lam):
+   t (nm)        a  lam (nm)  rms/sigma
+       10   0.0527     17.37       2.93
+       20   0.0632     21.23       1.51
+       30   0.0711     23.46       1.52
+       40   0.0800     26.02       1.23
+       50   0.0931     25.03       1.23
+       70   0.1149     23.44       1.35
+      100   0.1393     21.12       2.21
+      150   0.1793     17.69       1.72
+      200   0.1946     11.88       1.93
+Stage 2 -- global kernel candidates (weighted fit to all runs):
+  exponential         k=4  chi2/dof = 11.307  AIC =  10025.6
+  power               k=5  chi2/dof = 11.519  AIC =  10204.4
+  double-exponential  k=6  chi2/dof = 11.141  AIC =   9860.5
+  exponential-zlam    k=5  chi2/dof =  4.107  AIC =   3644.9
+Selected kernel: exponential-zlam
+  A0   =  3.9343e-02 +/- 1.7e-04
+  A1   =  1.2318e-03 +/- 9.5e-06
+  A2   = -1.7584e-06 +/- 7.5e-08
+  lam0 =  3.9055e+01 +/- 2.9e-01
+  kappa = -6.4893e-03 +/- 7.8e-05

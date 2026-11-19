@@ -1,0 +1,11 @@
+within-image correlations of the ratio samples: 0.14 to 0.78, median 0.39
+long: chi2 48.22 / 15.53 / 14.89; strongest correlations {'null': ('C_o-C_b', -0.9814881100810267), 'symfree': ('C_o-lambda', -0.9687915638643345), 'split': ('C_b-lambda_back', -0.947866374286582)}
+long: five-parameter fit chi2 15.48, C_b 9.6 +/- 8.5, lambda_front 18 +/- 11 nm, lambda_back 5.8 +/- 1.7 nm
+long: posterior-covariance fit chi2 22.72, C_b 0.62 +/- 0.06, lambda_back 10.1 +/- 0.9 nm, s 0.62 +/- 0.03
+long: forward warp chi2 17.40; max mismatch with the asymmetric family 0.0047 in I_n = sigma/5.1 (median sigma 0.0236)
+long: falling branch mean slope 65-185 nm 0.0078 per nm; steepest 0.0112 at 114 nm
+aware: chi2 60.42 / 14.92 / 14.31; strongest correlations {'null': ('C_o-C_b', -0.9917262616634914), 'symfree': ('C_o-lambda', -0.9594361220887248), 'split': ('C_b-lambda_back', -0.9348147609536512)}
+aware: five-parameter fit chi2 14.89, C_b 10.7 +/- 10.7, lambda_front 21 +/- 17 nm, lambda_back 6.7 +/- 1.5 nm
+aware: posterior-covariance fit chi2 20.11, C_b 0.65 +/- 0.06, lambda_back 10.3 +/- 0.9 nm, s 0.62 +/- 0.03
+aware: forward warp chi2 17.24; max mismatch with the asymmetric family 0.0101 in I_n = sigma/2.3 (median sigma 0.0236)
+aware: falling branch mean slope 65-185 nm 0.0078 per nm; steepest 0.0108 at 118 nm
